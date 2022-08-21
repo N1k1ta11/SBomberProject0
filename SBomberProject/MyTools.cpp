@@ -1,4 +1,3 @@
-
 #include <conio.h>
 #include <windows.h>
 #include <stdint.h>
@@ -70,18 +69,20 @@ namespace MyTools {
 
     //=============================================================================================
 
-    void __fastcall OpenLogFile(const string& FN)
+    void __fastcall FileLoggerSingleton::OpenLogFile(const string& FN)
     {
         logOut.open(FN, ios_base::out);
     }
 
-    void CloseLogFile()
+    void FileLoggerSingleton::CloseLogFile()
     {
         if (logOut.is_open())
         {
             logOut.close();
         }
     }
+
+    int FileLoggerSingleton::num = 1;
 
     string GetCurDateTime()
     {
@@ -93,31 +94,57 @@ namespace MyTools {
         return string(buf);
     }
 
-    void __fastcall WriteToLog(const string& str)
+    void __fastcall FileLoggerSingleton::WriteToLog(const string& str)
     {
         if (logOut.is_open())
         {
-            logOut << GetCurDateTime() << " - " << str << endl;
+            logOut << to_string(num) << " " << GetCurDateTime() << " - " << str << endl;
+            num++;
         }
     }
 
-    void __fastcall WriteToLog(const string& str, int n)
+    void __fastcall FileLoggerSingleton::WriteToLog(const string& str, int n)
     {
         if (logOut.is_open())
         {
-            logOut << GetCurDateTime() << " - " << str << n << endl;
+            logOut << to_string(num) << " " << GetCurDateTime() << " - " << str << n << endl;
+            num++;
         }
     }
 
-    void __fastcall WriteToLog(const string& str, double d)
+    void __fastcall FileLoggerSingleton::WriteToLog(const string& str, double d)
     {
         if (logOut.is_open())
         {
-            logOut << GetCurDateTime() << " - " << str << d << endl;
+            logOut << to_string(num) << " " << GetCurDateTime() << " - " << str << d << endl;
+            num++;
         }
     }
 
     //=============================================================================================
+    void LoggerSingleton::OpenLogFile(const std::string& FN)
+    {
+        log.OpenLogFile(FN);
+    }
 
+    void LoggerSingleton::CloseLogFile()
+    {
+        log.CloseLogFile();
+    }
+
+    void LoggerSingleton::WriteToLog(const std::string& str)
+    {
+        log.WriteToLog(str);
+    }
+
+    void LoggerSingleton::WriteToLog(const std::string& str, int n)
+    {
+        log.WriteToLog(str, n);
+    }
+
+    void LoggerSingleton::WriteToLog(const std::string& str, double d)
+    {
+        log.WriteToLog(str, d);
+    }
 
 } // namespace MyTools
