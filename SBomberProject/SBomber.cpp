@@ -8,7 +8,10 @@
 #include "Ground.h"
 #include "Tank.h"
 #include "House.h"
-
+#include "WinterLevelFactory.h"
+#include "AbstractLevelFactory.h"
+#include "SummerLevelFactory.h"
+#include <time.h>
 using namespace std;
 using namespace MyTools;
 
@@ -41,24 +44,33 @@ SBomber::SBomber()
     pGUI->SetHeight(maxY - 4);
     pGUI->SetFinishX(offset + width - 4);
     vecStaticObj.push_back(pGUI);
-
-    Ground* pGr = new Ground;
+    AbstractLevelFactory* factory;
+    srand(time(0));
+    if (rand() % 2 == 1)
+    {
+        factory = new WinterLevelFactory();
+    }
+    else
+    {
+        factory = new SummerLevelFactory();
+    }
+    Ground* pGr = factory->createGround();
     const uint16_t groundY = maxY - 5;
     pGr->SetPos(offset + 1, groundY);
     pGr->SetWidth(width - 2);
     vecStaticObj.push_back(pGr);
 
-    Tank* pTank = new Tank;
+    Tank* pTank = factory->createTank();
     pTank->SetWidth(13);
     pTank->SetPos(30, groundY - 1);
     vecStaticObj.push_back(pTank);
 
-    pTank = new Tank;
+    pTank = factory->createTank();
     pTank->SetWidth(13);
     pTank->SetPos(50, groundY - 1);
     vecStaticObj.push_back(pTank);
 
-    House * pHouse = new House;
+    House * pHouse = factory->createHouse();
     pHouse->SetWidth(13);
     pHouse->SetPos(80, groundY - 1);
     vecStaticObj.push_back(pHouse);

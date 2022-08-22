@@ -34,7 +34,7 @@ bool Crater::isInside(double xn) const
 
 void Ground::Draw() const
 {
-    MyTools::SetColor(CC_Green);
+    MyTools::SetColor(color);
 
     const size_t bufSize = width + 1;
     char* buf = new (nothrow) char[bufSize];

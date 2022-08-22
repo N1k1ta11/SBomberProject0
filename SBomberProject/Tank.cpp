@@ -32,7 +32,7 @@ bool Tank::isInside(double x1, double x2) const
 
 void Tank::Draw() const
 {
-	MyTools::SetColor(CC_Brown);
+	MyTools::SetColor(color);
 	GotoXY(x, y - 3);
 	cout << "    #####";
 	GotoXY(x-2, y - 2);

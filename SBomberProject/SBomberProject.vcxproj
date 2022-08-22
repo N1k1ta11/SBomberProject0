@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="AbstractLevelFactory.cpp" />
     <ClCompile Include="Bomb.cpp" />
     <ClCompile Include="Ground.cpp" />
     <ClCompile Include="House.cpp" />
@@ -147,9 +148,15 @@
     <ClCompile Include="Plane.cpp" />
     <ClCompile Include="SBomber.cpp" />
     <ClCompile Include="SBomberProject.cpp" />
+    <ClCompile Include="SummerLevelFactory.cpp" />
     <ClCompile Include="Tank.cpp" />
+    <ClCompile Include="WinterGround.cpp" />
+    <ClCompile Include="WinterHouse.cpp" />
+    <ClCompile Include="WinterLevelFactory.cpp" />
+    <ClCompile Include="WinterTank.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="AbstractLevelFactory.h" />
     <ClInclude Include="Bomb.h" />
     <ClInclude Include="GameObject.h" />
     <ClInclude Include="DynamicObject.h" />
@@ -160,7 +167,12 @@
     <ClInclude Include="MyTools.h" />
     <ClInclude Include="Plane.h" />
     <ClInclude Include="SBomber.h" />
+    <ClInclude Include="SummerLevelFactory.h" />
     <ClInclude Include="Tank.h" />
+    <ClInclude Include="WinterGround.h" />
+    <ClInclude Include="WinterHouse.h" />
+    <ClInclude Include="WinterLevelFactory.h" />
+    <ClInclude Include="WinterTank.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

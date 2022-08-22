@@ -1,7 +1,7 @@
 #pragma once
 
 #include <vector>
-
+#include "MyTools.h"
 #include "GameObject.h"
 
 //=============================================================================================================
@@ -32,7 +32,7 @@ class Ground : public GameObject
 public:
 
 	Ground() { }
-
+	Ground(MyTools::ConsoleColor c) : color(c){}
 	void Draw() const override;
 
 	void __fastcall AddCrater(double xn);
@@ -42,5 +42,6 @@ private:
 	bool __fastcall isInsideAnyCrater(double x) const;
 
 	std::vector<Crater> vecCrates;
+	MyTools::ConsoleColor color = MyTools::ConsoleColor::CC_Green;
 };
 
