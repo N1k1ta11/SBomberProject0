@@ -9,8 +9,34 @@
 #include "Tank.h"
 #include "House.h"
 #include <time.h>
+#include <memory>
 using namespace std;
 using namespace MyTools;
+
+class IFactory
+{
+public:
+    virtual ~IFactory() {}
+    DynamicObject* createBomb(const double x, const double y) const
+    {
+        Bomb* pBomb = createBombInstance();
+        pBomb->SetDirection(0.3, 1);
+        pBomb->SetSpeed(2);
+        pBomb->SetPos(x, y);
+        pBomb->SetWidth(SMALL_CRATER_SIZE);
+        return pBomb;
+    }
+private:
+    virtual Bomb* createBombInstance() const = 0;
+};
+
+class RegularFactory : public IFactory
+{
+    Bomb* createBombInstance() const override
+    {
+        return new Bomb;
+    }
+};
 
 void CommandDropBomb::setParams(Plane* plane, uint16_t *countBomb, int16_t *score)
 {
@@ -32,7 +58,8 @@ void CommandDropBomb::Execute()
         {
             /*Bomb* pBomb = new Bomb;
             BombDecorator m_Bomb(pBomb);*/
-            DynamicObject* m_Bomb = new Bomb;
+
+            /*Bomb* m_Bomb = new Bomb;
             m_Bomb->SetDirection(0.3, 1);
             m_Bomb->SetSpeed(2);
             m_Bomb->SetPos(x, y);
@@ -40,18 +67,20 @@ void CommandDropBomb::Execute()
 
             m_vecDynamic.push_back(new BombDecorator(m_Bomb));
             m_countBomb--;
+            m_score -= Bomb::BombCost;*/
+
+            auto pFactory = new RegularFactory;
+            m_vecDynamic.push_back(new BombDecorator(pFactory->createBomb(x, y)));
+            delete pFactory;
+
+            m_countBomb--;
             m_score -= Bomb::BombCost;
         }
         else
         {
-            Bomb* pBomb = new Bomb;
-
-            pBomb->SetDirection(0.3, 1);
-            pBomb->SetSpeed(2);
-            pBomb->SetPos(x, y);
-            pBomb->SetWidth(SMALL_CRATER_SIZE);
-
-            m_vecDynamic.push_back(pBomb);
+            auto pFactory = new RegularFactory;
+            m_vecDynamic.push_back(pFactory->createBomb(x, y));
+            delete pFactory;
             m_countBomb--;
             m_score -= Bomb::BombCost;
         }
@@ -183,9 +212,10 @@ void SBomber::CheckBombsAndGround()
         {
             pGround->AddCrater(vecBombs[i]->GetX());
             CheckDestoyableObjects(vecBombs[i]);
+
             CommandDel<DynamicObject>delCom(SBomber::vecDynamicObj);
             delCom.setObj(vecBombs[i]);
-            CommandExecuter(&delCom);
+            delCom.Execute();
         }
     }
 
@@ -206,7 +236,8 @@ void SBomber::CheckDestoyableObjects(Bomb * pBomb)
             //DeleteStaticObj(vecDestoyableObjects[i]);
             CommandDel<GameObject>comDel(SBomber::vecStaticObj);
             comDel.setObj(vecDestoyableObjects[i]);
-            CommandExecuter(&comDel);
+            //CommandExecuter(&comDel);
+            comDel.Execute();
         }
     }
 }

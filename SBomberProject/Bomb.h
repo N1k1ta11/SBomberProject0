@@ -20,6 +20,8 @@ public:
 	BombDecorator(DynamicObject* bomb) : m_bomb(bomb) {}
 	void Draw() const override;
 	void Move(uint16_t time) override;
+	void SetPos(double nx, double ny);
+	uint16_t GetWidth() const;
 	DynamicObject* m_bomb;
 
 };

@@ -51,6 +51,8 @@ public:
     CommandDropBomb(std::vector<DynamicObject*>& vecDynamic) : m_vecDynamic(vecDynamic){}
     void setParams(Plane* plane, uint16_t *countBomb,int16_t *score);
     void Execute() override;
+
+
 private:
     std::vector<DynamicObject*>& m_vecDynamic;
     Plane* m_plane;
