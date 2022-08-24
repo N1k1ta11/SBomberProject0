@@ -60,6 +60,21 @@ private:
     int16_t *m_score;
 };
 
+class CommandDropBigBomb : public Command
+{
+public:
+    CommandDropBigBomb(std::vector<DynamicObject*>& vecDynamic) : m_vecDynamic(vecDynamic) {}
+    void setParams(Plane* plane, uint16_t* countBomb, int16_t* score);
+    void Execute() override;
+
+
+private:
+    std::vector<DynamicObject*>& m_vecDynamic;
+    Plane* m_plane;
+    uint16_t* m_countBomb;
+    int16_t* m_score;
+};
+
 class SBomber
 {
 public:

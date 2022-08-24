@@ -52,42 +52,15 @@ void CommandDropBomb::Execute()
         WriteToLog(string(__FUNCTION__) + " was invoked");
         double x = m_plane->GetX() + 4;
         double y = m_plane->GetY() + 2;
+        Bomb* m_Bomb = new Bomb;
+        m_Bomb->SetDirection(0.3, 1);
+        m_Bomb->SetSpeed(2);
+        m_Bomb->SetPos(x, y);
+        m_Bomb->SetWidth(SMALL_CRATER_SIZE);
 
-        srand(time(0));
-        if (rand() % 2 == 1)
-        {
-            /*Bomb* pBomb = new Bomb;
-            BombDecorator m_Bomb(pBomb);*/
-
-            Bomb* m_Bomb = new Bomb;
-            m_Bomb->SetDirection(0.3, 1);
-            m_Bomb->SetSpeed(2);
-            m_Bomb->SetPos(x, y);
-            m_Bomb->SetWidth(SMALL_CRATER_SIZE);
-            Bomb* n_bomb = new BombDecorator(m_Bomb);
-            m_vecDynamic.push_back(n_bomb);
-            m_countBomb--;
-            m_score -= Bomb::BombCost;
-
-            /*auto pFactory = new RegularFactory;
-            m_vecDynamic.push_back(new BombDecorator(pFactory->createBomb(x, y)));
-            delete pFactory;
-
-            m_countBomb--;
-            m_score -= Bomb::BombCost;*/
-        }
-        else
-        {
-            Bomb* m_Bomb = new Bomb;
-            m_Bomb->SetDirection(0.3, 1);
-            m_Bomb->SetSpeed(2);
-            m_Bomb->SetPos(x, y);
-            m_Bomb->SetWidth(SMALL_CRATER_SIZE);
-
-            m_vecDynamic.push_back(m_Bomb);
-            m_countBomb--;
-            m_score -= Bomb::BombCost;
-        }
+        m_vecDynamic.push_back(m_Bomb);
+        m_countBomb--;
+        m_score -= Bomb::BombCost;
     }
 }
 
@@ -399,7 +372,7 @@ void SBomber::ProcessKBHit()
 
     case 'B':
     {
-        CommandDropBomb dropCom(SBomber::vecDynamicObj);
+        CommandDropBigBomb dropCom(SBomber::vecDynamicObj);
         dropCom.setParams(FindPlane(), &bombsNumber, &score);
         CommandExecuter(&dropCom);
         break;
@@ -472,3 +445,27 @@ void SBomber::TimeFinish()
 //        score -= Bomb::BombCost;
 //    }
 //}
+
+void CommandDropBigBomb::setParams(Plane* plane, uint16_t* countBomb, int16_t* score)
+{
+    m_plane = plane;
+    m_countBomb = countBomb;
+    m_score = score;
+}
+
+void CommandDropBigBomb::Execute()
+{
+    WriteToLog(string(__FUNCTION__) + " was invoked");
+    double x = m_plane->GetX() + 4;
+    double y = m_plane->GetY() + 2;
+
+    Bomb* m_Bomb = new Bomb;
+    m_Bomb->SetDirection(0.3, 1);
+    m_Bomb->SetSpeed(2);
+    m_Bomb->SetPos(x, y);
+    m_Bomb->SetWidth(SMALL_CRATER_SIZE);
+    Bomb* n_bomb = new BombDecorator(m_Bomb);
+    m_vecDynamic.push_back(n_bomb);
+    m_countBomb--;
+    m_score -= Bomb::BombCost;
+}
