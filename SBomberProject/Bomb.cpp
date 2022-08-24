@@ -16,7 +16,8 @@ void Bomb::Draw() const
 
 void BombDecorator::Move(uint16_t time)
 {
-    m_bomb->Move(time * 1.1);
+    uint16_t newT = time * 1.5;
+    m_bomb->Move(newT);
 }
 
 void BombDecorator::SetPos(double nx, double ny)
