@@ -90,7 +90,7 @@ private:
     Plane * FindPlane() const;
     LevelGUI * FindLevelGUI() const;
     std::vector<DestroyableGroundObject*> FindDestoyableGroundObjects() const;
-    std::vector<DynamicObject*> FindAllBombs() const;
+    std::vector<Bomb*> FindAllBombs() const;
 
     //void DropBomb(const Plane* p, vector<DynamicObject*>dO, const uint64_t & numberOfBombs);
     //void DropBomb();

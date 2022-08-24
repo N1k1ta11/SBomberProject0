@@ -59,12 +59,12 @@ void CommandDropBomb::Execute()
             /*Bomb* pBomb = new Bomb;
             BombDecorator m_Bomb(pBomb);*/
 
-            DynamicObject* m_Bomb = new Bomb;
+            Bomb* m_Bomb = new Bomb;
             m_Bomb->SetDirection(0.3, 1);
             m_Bomb->SetSpeed(2);
             m_Bomb->SetPos(x, y);
             m_Bomb->SetWidth(SMALL_CRATER_SIZE);
-            DynamicObject* n_bomb = new BombDecorator(m_Bomb);
+            Bomb* n_bomb = new BombDecorator(m_Bomb);
             m_vecDynamic.push_back(n_bomb);
             m_countBomb--;
             m_score -= Bomb::BombCost;
@@ -207,7 +207,7 @@ void SBomber::CheckPlaneAndLevelGUI()
 
 void SBomber::CheckBombsAndGround() 
 {
-    vector<DynamicObject*> vecBombs = FindAllBombs();
+    vector<Bomb*> vecBombs = FindAllBombs();
     Ground* pGround = FindGround();
     const double y = pGround->GetY();
     for (size_t i = 0; i < vecBombs.size(); i++)
@@ -311,9 +311,9 @@ Ground* SBomber::FindGround() const
     return nullptr;
 }
 
-vector<DynamicObject*> SBomber::FindAllBombs() const
+vector<Bomb*> SBomber::FindAllBombs() const
 {
-    vector<DynamicObject*> vecBombs;
+    vector<Bomb*> vecBombs;
 
     for (size_t i = 0; i < vecDynamicObj.size(); i++)
     {
@@ -329,7 +329,7 @@ vector<DynamicObject*> SBomber::FindAllBombs() const
         BombDecorator* pBomb = dynamic_cast<BombDecorator*>(vecDynamicObj[i]);
         if (pBomb != nullptr)
         {
-            vecBombs.push_back(pBomb->m_bomb);
+            vecBombs.push_back(pBomb);
         }
     }
 
