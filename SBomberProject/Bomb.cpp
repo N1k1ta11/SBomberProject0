@@ -25,6 +25,16 @@ void BombDecorator::SetPos(double nx, double ny)
     m_bomb->SetPos(nx, ny);
 }
 
+double BombDecorator::GetY()
+{
+    return m_bomb->GetY();
+}
+
+double BombDecorator::GetX()
+{
+    return m_bomb->GetX();
+}
+
 uint16_t BombDecorator::GetWidth() const
 {
     return m_bomb->GetWidth();

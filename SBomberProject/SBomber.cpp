@@ -298,15 +298,6 @@ vector<Bomb*> SBomber::FindAllBombs() const
         }
     }
 
-    for (size_t i = 0; i < vecDynamicObj.size(); i++)
-    {
-        BombDecorator* pBomb = dynamic_cast<BombDecorator*>(vecDynamicObj[i]);
-        if (pBomb != nullptr)
-        {
-            vecBombs.push_back(pBomb);
-        }
-    }
-
     return vecBombs;
 }
 
