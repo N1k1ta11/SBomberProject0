@@ -193,6 +193,7 @@ void SBomber::CheckBombsAndGround()
             CommandDel<DynamicObject>delCom(SBomber::vecDynamicObj);
             delCom.setObj(vecBombs[i]);
             delCom.Execute();
+            delete vecBombs[i];
         }
     }
 
@@ -455,11 +456,24 @@ void CommandDropBigBomb::setParams(Plane* plane, uint16_t* countBomb, int16_t* s
 
 void CommandDropBigBomb::Execute()
 {
+    /*double x = m_plane->GetX() + 4;
+    double y = m_plane->GetY() + 2;
+    Bomb* m_Bomb = new Bomb;
+    m_Bomb->SetDirection(0.3, 1);
+    m_Bomb->SetSpeed(2);
+    m_Bomb->SetPos(x, y);
+    m_Bomb->SetWidth(SMALL_CRATER_SIZE);
+
+    m_vecDynamic.push_back(m_Bomb);
+    m_countBomb--;
+    m_score -= Bomb::BombCost;*/
+
+
     WriteToLog(string(__FUNCTION__) + " was invoked");
     double x = m_plane->GetX() + 4;
     double y = m_plane->GetY() + 2;
 
-    Bomb* m_Bomb = new Bomb;
+    Bomb* m_Bomb = new Bomb();
     m_Bomb->SetDirection(0.3, 1);
     m_Bomb->SetSpeed(2);
     m_Bomb->SetPos(x, y);

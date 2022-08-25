@@ -33,4 +33,6 @@ uint16_t BombDecorator::GetWidth() const
 void BombDecorator::Draw() const
 {
     m_bomb->Draw();
+    GotoXY(m_bomb->GetX(), m_bomb->GetY() - 1);
+    std::cout << "|";
 }
