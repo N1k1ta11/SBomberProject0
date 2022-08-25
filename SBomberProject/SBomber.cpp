@@ -469,7 +469,7 @@ void CommandDropBigBomb::Execute()
     m_Bomb->SetSpeed(2);
     m_Bomb->SetPos(x, y);
     m_Bomb->SetWidth(SMALL_CRATER_SIZE);
-    Bomb* n_bomb = new BombDecorator(m_Bomb);
+    BombDecorator* n_bomb = new BombDecorator(m_Bomb);
     m_vecDynamic.push_back(n_bomb);
     m_countBomb--;
     m_score -= Bomb::BombCost;
