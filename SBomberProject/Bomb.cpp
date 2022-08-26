@@ -20,11 +20,6 @@ void BombDecorator::Move(uint16_t time)
     m_bomb->Move(newT);
 }
 
-void BombDecorator::SetPos(double nx, double ny)
-{
-    m_bomb->SetPos(nx, ny);
-}
-
 double BombDecorator::GetY()
 {
     return m_bomb->GetY();
