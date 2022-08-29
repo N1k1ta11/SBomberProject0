@@ -226,14 +226,27 @@ vector<Bomb*> SBomber::FindAllBombs() const
 {
     vector<Bomb*> vecBombs;
 
-    for (size_t i = 0; i < vecDynamicObj.size(); i++)
+    /*for (size_t i = 0; i < vecDynamicObj.size(); i++)
     {
         Bomb* pBomb = dynamic_cast<Bomb*>(vecDynamicObj[i]);
         if (pBomb != nullptr)
         {
             vecBombs.push_back(pBomb);
         }
+    }*/
+    Iter arr(vecDynamicObj);
+
+    Iter::FindBombIterator it=arr.begin();
+    for (; it != arr.end(); ++it)
+    {
+        vecBombs.push_back((Bomb*)(*it));
     }
+
+    /*for (auto i : vecDynamicObj)
+    {
+        vecBombs.push_back(i);
+    }*/
+
 
     return vecBombs;
 }
