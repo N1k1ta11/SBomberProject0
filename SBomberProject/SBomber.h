@@ -55,12 +55,12 @@ private:
 };
 
 
-class Iter
+class DynamicaArr
 {
 private:
 	vector<DynamicObject*>bombs;
 public:
-	Iter(vector<DynamicObject*>v)
+	DynamicaArr(vector<DynamicObject*>v)
 	{
 		for (auto i : v)
 		{
@@ -72,16 +72,16 @@ public:
 	{
 		bombs.push_back(n);
 	}
-	class FindBombIterator
+	class BombIterator
 	{
 	private:
 		vector<DynamicObject*>& refBombs;
 		int index;
 		DynamicObject* ptr;
 	public:
-		FindBombIterator(vector<DynamicObject*>& b) :refBombs(b), index(-1), ptr(nullptr) { ++(*this); }
+		BombIterator(vector<DynamicObject*>& b) :refBombs(b), index(-1), ptr(nullptr) { ++(*this); }
 		void reset() { index = -1; ptr = nullptr; }
-		FindBombIterator& operator++()
+		BombIterator& operator++()
 		{
 			index++;
 			if (index == -1)
@@ -105,7 +105,7 @@ public:
 			return *this;
 		}
 
-		FindBombIterator& operator--()
+		BombIterator& operator--()
 		{
 			if (index == -1)
 			{
@@ -132,7 +132,7 @@ public:
 			return refBombs.at(index);
 		}
 
-		bool operator==(FindBombIterator it) // проверка на лог. равенство итераторов
+		bool operator==(BombIterator it) // проверка на лог. равенство итераторов
 		{
 			if (index == it.index &&
 				ptr == it.ptr &&
@@ -143,12 +143,12 @@ public:
 			return false;
 		}
 
-		bool operator!=(FindBombIterator it) // проверка на лог. неравенство
+		bool operator!=(BombIterator it) // проверка на лог. неравенство
 		{
 			return !(*this == it);
 		}
 	};
 
-	FindBombIterator begin() { FindBombIterator it(bombs); return it; }
-	FindBombIterator end() { FindBombIterator it(bombs); it.reset(); return it; }
+	BombIterator begin() { BombIterator it(bombs); return it; }
+	BombIterator end() { BombIterator it(bombs); it.reset(); return it; }
 };
