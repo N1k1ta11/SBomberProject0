@@ -60,18 +60,9 @@ class DynamicaArr
 private:
 	vector<DynamicObject*>bombs;
 public:
-	DynamicaArr(vector<DynamicObject*>v)
-	{
-		for (auto i : v)
-		{
-			bombs.push_back(i);
-		}
-	}
+	DynamicaArr(vector<DynamicObject*>v);
 
-	void push_back(DynamicObject* n)
-	{
-		bombs.push_back(n);
-	}
+	void push_back(DynamicObject* n);
 	class BombIterator
 	{
 	private:
@@ -80,7 +71,7 @@ public:
 		DynamicObject* ptr;
 	public:
 		BombIterator(vector<DynamicObject*>& b) :refBombs(b), index(-1), ptr(nullptr) { ++(*this); }
-		void reset() { index = -1; ptr = nullptr; }
+		void reset();
 		BombIterator& operator++()
 		{
 			index++;
@@ -149,6 +140,6 @@ public:
 		}
 	};
 
-	BombIterator begin() { BombIterator it(bombs); return it; }
+	BombIterator begin() { BombIterator it(bombs); return it; };
 	BombIterator end() { BombIterator it(bombs); it.reset(); return it; }
 };

@@ -12,6 +12,7 @@
 using namespace std;
 using namespace MyTools;
 
+
 SBomber::SBomber()
     : exitFlag(false),
     startTime(0),
@@ -364,4 +365,22 @@ void SBomber::DropBomb()
         bombsNumber--;
         score -= Bomb::BombCost;
     }
+}
+
+DynamicaArr::DynamicaArr(vector<DynamicObject*> v)
+{
+    for (auto i : v)
+    {
+        bombs.push_back(i);
+    }
+}
+
+void DynamicaArr::push_back(DynamicObject* n)
+{
+    bombs.push_back(n);
+}
+
+void DynamicaArr::BombIterator::reset()
+{
+     index = -1; ptr = nullptr;
 }
