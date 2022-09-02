@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="AbstractTreeCreator.cpp" />
     <ClCompile Include="Bomb.cpp" />
     <ClCompile Include="Ground.cpp" />
     <ClCompile Include="House.cpp" />
@@ -148,8 +149,13 @@
     <ClCompile Include="SBomber.cpp" />
     <ClCompile Include="SBomberProject.cpp" />
     <ClCompile Include="Tank.cpp" />
+    <ClCompile Include="TreeA.cpp" />
+    <ClCompile Include="TreeB.cpp" />
+    <ClCompile Include="TreeCreatorA.cpp" />
+    <ClCompile Include="TreeCreatorB.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="AbstractTreeCreator.h" />
     <ClInclude Include="Bomb.h" />
     <ClInclude Include="GameObject.h" />
     <ClInclude Include="DynamicObject.h" />
@@ -159,8 +165,13 @@
     <ClInclude Include="LevelGUI.h" />
     <ClInclude Include="MyTools.h" />
     <ClInclude Include="Plane.h" />
+    <ClInclude Include="resource.h" />
     <ClInclude Include="SBomber.h" />
     <ClInclude Include="Tank.h" />
+    <ClInclude Include="TreeA.h" />
+    <ClInclude Include="TreeB.h" />
+    <ClInclude Include="TreeCreatorA.h" />
+    <ClInclude Include="TreeCreatorB.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

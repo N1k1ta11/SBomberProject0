@@ -8,6 +8,8 @@
 #include "Ground.h"
 #include "Tank.h"
 #include "House.h"
+#include "TreeCreatorA.h"
+#include "TreeCreatorB.h"
 
 using namespace std;
 using namespace MyTools;
@@ -20,7 +22,7 @@ SBomber::SBomber()
     passedTime(0),
     fps(0),
     bombsNumber(10),
-    score(0)
+    score(0), treeCreator(new TreeCreatorA())
 {
     WriteToLog(string(__FUNCTION__) + " was invoked");
 
@@ -186,6 +188,8 @@ vector<DestroyableGroundObject*> SBomber::FindDestoyableGroundObjects() const
     vector<DestroyableGroundObject*> vec;
     Tank* pTank;
     House* pHouse;
+    TreeA* pTreaA;
+    TreeB* pTreaB;
     for (size_t i = 0; i < vecStaticObj.size(); i++)
     {
         pTank = dynamic_cast<Tank*>(vecStaticObj[i]);
@@ -199,6 +203,20 @@ vector<DestroyableGroundObject*> SBomber::FindDestoyableGroundObjects() const
         if (pHouse != nullptr)
         {
             vec.push_back(pHouse);
+            continue;
+        }
+
+        pTreaA = dynamic_cast<TreeA*>(vecStaticObj[i]);
+        if (pTreaA != nullptr)
+        {
+            vec.push_back(pTreaA);
+            continue;
+        }
+
+        pTreaB = dynamic_cast<TreeB*>(vecStaticObj[i]);
+        if (pTreaB != nullptr)
+        {
+            vec.push_back(pTreaB);
             continue;
         }
     }
@@ -298,6 +316,29 @@ void SBomber::ProcessKBHit()
     case 'B':
         DropBomb();
         break;
+
+    case '1':
+    {
+        delete treeCreator;
+        treeCreator = new TreeCreatorA();
+        break;
+    }
+
+    case '2':
+    {
+        delete treeCreator;
+        treeCreator = new TreeCreatorB();
+        break;
+    }
+
+    case '3':
+    {
+        DestroyableGroundObject* pTree =treeCreator->createTree();
+        pTree->SetWidth(13);
+        pTree->SetPos(rand()%100, GetMaxY()-6);
+        vecStaticObj.push_back(pTree);
+        break;
+    }
 
     default:
         break;
