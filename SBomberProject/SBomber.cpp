@@ -8,6 +8,7 @@
 #include "Ground.h"
 #include "Tank.h"
 #include "House.h"
+#include <time.h>
 
 using namespace std;
 using namespace MyTools;
@@ -58,10 +59,25 @@ SBomber::SBomber()
     pTank->SetPos(50, groundY - 1);
     vecStaticObj.push_back(pTank);
 
-    House * pHouse = new House;
-    pHouse->SetWidth(13);
-    pHouse->SetPos(80, groundY - 1);
-    vecStaticObj.push_back(pHouse);
+    //House * pHouse = new House;
+    Director dir;
+    srand(time(0));
+    if (rand() % 2 == 1)
+    {
+        YellowHouse y;
+        House* pHouse = dir.createHouse(y);
+        pHouse->SetWidth(13);
+        pHouse->SetPos(80, groundY - 1);
+        vecStaticObj.push_back(pHouse);
+    }
+    else
+    {
+        BlueHouse b;
+        House* pHouse = dir.createHouse(b);
+        pHouse->SetWidth(13);
+        pHouse->SetPos(80, groundY - 1);
+        vecStaticObj.push_back(pHouse);
+    }
 
     /*
     Bomb* pBomb = new Bomb;
