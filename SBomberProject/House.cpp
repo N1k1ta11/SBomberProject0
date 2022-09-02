@@ -32,17 +32,92 @@ bool House::isInside(double x1, double x2) const
 
 void House::Draw() const
 {
-	MyTools::SetColor(CC_Yellow);
-	GotoXY(x, y - 5);
-	cout << "  ########  ";
-	GotoXY(x, y - 4);
-	cout << "##        ##";
-	GotoXY(x, y - 3);
-	cout << "############";
-	GotoXY(x, y - 2);
-	cout << "#          #";
-	GotoXY(x, y - 1);
-	cout << "#          #";
-	GotoXY(x, y);
-	cout << "############";
+	MyTools::SetColor(color);
+	int k=5;
+	for (int i = 0; i < 6; i++)
+	{
+		GotoXY(x, y - k);
+		for (int j = 0; j < 12; j++)
+		{
+			cout << look[i][j];
+		}
+		k--;
+	}
 }
+
+void HouseBuilderA::buildRoof()
+{
+	for (int i = 0; i < 3; i++)
+	{
+		for (int j = 0; j < 12; j++)
+		{
+			if (i == 0 && (j == 0 || j == 1 || j == 10 || j == 11))
+			{
+				h->look[i][j] = ' ';
+				continue;
+			}
+			if (i == 1 && (j != 0 && j != 1 && j != 10 && j != 11))
+			{
+				h->look[i][j] = ' ';
+				continue;
+			}
+			h->look[i][j] = '#';
+		}
+	}
+}
+
+void HouseBuilderA::buildWalls()
+{
+	for (int i = 3; i < 6; i++)
+	{
+		for (int j = 0; j < 12; j++)
+		{
+			if ((i == 3 || i == 4) && (j != 0 && j != 11))
+			{
+				h->look[i][j] = ' ';
+				continue;
+			}
+			h->look[i][j] = '#';
+
+		}
+	}
+}
+
+void HouseBuilderB::buildRoof()
+{
+	for (int i = 0; i < 3; i++)
+	{
+		for (int j = 0; j < 12; j++)
+		{
+			if (i == 0 && (j == 0 || j == 1 || j == 10 || j == 11))
+			{
+				h->look[i][j] = ' ';
+				continue;
+			}
+			if (i == 1 && (j != 0 && j != 1 && j != 10 && j != 11))
+			{
+				h->look[i][j] = ' ';
+				continue;
+			}
+			h->look[i][j] = '+';
+		}
+	}
+}
+
+void HouseBuilderB::buildWalls()
+{
+	for (int i = 3; i < 6; i++)
+	{
+		for (int j = 0; j < 12; j++)
+		{
+			if ((i == 3 || i == 4) && (j != 0 && j!=1 && j!=2 && j!=9 && j!=10 && j != 11))
+			{
+				h->look[i][j] = ' ';
+				continue;
+			}
+			h->look[i][j] = '+';
+		}
+	}
+}
+
+
