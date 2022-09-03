@@ -135,26 +135,32 @@ void SBomber::CheckObjects()
 
 void SBomber::CheckPlaneAndLevelGUI()
 {
-    if (FindPlane()->GetX() > FindLevelGUI()->GetFinishX())
+    /*if (FindPlane()->GetX() > FindLevelGUI()->GetFinishX())
     {
         exitFlag = true;
-    }
+    }*/
+    Plane* pl = FindPlane();
+    LevelGUI* lvl = FindLevelGUI();
+    colDet->CheckPlaneAndLvl(pl, lvl, exitFlag);
 }
 
 void SBomber::CheckBombsAndGround() 
 {
+    //vector<Bomb*> vecBombs = FindAllBombs();
+    //Ground* pGround = FindGround();
+    //const double y = pGround->GetY();
+    //for (size_t i = 0; i < vecBombs.size(); i++)
+    //{
+    //    if (vecBombs[i]->GetY() >= y) // Пересечение бомбы с землей
+    //    {
+    //        pGround->AddCrater(vecBombs[i]->GetX());
+    //        CheckDestoyableObjects(vecBombs[i]);
+    //        DeleteDynamicObj(vecBombs[i]);
+    //    }
+    //}
     vector<Bomb*> vecBombs = FindAllBombs();
     Ground* pGround = FindGround();
-    const double y = pGround->GetY();
-    for (size_t i = 0; i < vecBombs.size(); i++)
-    {
-        if (vecBombs[i]->GetY() >= y) // Пересечение бомбы с землей
-        {
-            pGround->AddCrater(vecBombs[i]->GetX());
-            CheckDestoyableObjects(vecBombs[i]);
-            DeleteDynamicObj(vecBombs[i]);
-        }
-    }
+    colDet->CheckBombsAndGround(vecBombs, pGround, DeleteDynamicObj)
 
 }
 

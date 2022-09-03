@@ -7,6 +7,9 @@
 #include "Bomb.h"
 #include "Ground.h"
 #include "Tank.h"
+#include "CollisionDetector.h"
+
+using namespace std;
 
 class SBomber
 {
@@ -34,6 +37,7 @@ private:
     void __fastcall DeleteDynamicObj(DynamicObject * pBomb);
     void __fastcall DeleteStaticObj(GameObject* pObj);
 
+    CollisionDetector* colDet=new CollisionDetector();
     Ground * FindGround() const;
     Plane * FindPlane() const;
     LevelGUI * FindLevelGUI() const;
