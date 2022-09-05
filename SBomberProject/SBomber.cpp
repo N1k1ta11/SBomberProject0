@@ -105,11 +105,11 @@ void SBomber::MoveObjects()
             Bomb* pBomb = dynamic_cast<Bomb*>(vecDynamicObj[i]);
             if (pPlane != nullptr)
             {
-                pPlane->Accept(vis);
+                pPlane->Accept(*vis);
             }
             if (pBomb != nullptr)
             {
-                pBomb->Accept(vis);
+                pBomb->Accept(*vis);
             }
         }
     }

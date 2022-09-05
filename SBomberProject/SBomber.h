@@ -26,7 +26,7 @@ public:
     void CheckObjects();
 
 private:
-    LogVisitor vis;
+    unique_ptr<LogVisitor>vis = make_unique<LogVisitor>();
     void CheckPlaneAndLevelGUI();
     void CheckBombsAndGround();
     void __fastcall CheckDestoyableObjects(Bomb* pBomb);
