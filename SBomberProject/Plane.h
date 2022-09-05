@@ -8,7 +8,7 @@ public:
     void Draw() const override;
 
     inline void ChangePlaneY(double dy) { yDirection += dy; }
-    void __fastcall Accept(Visitor& v);
+    void __fastcall Accept(class Visitor& v);
 
 private:
 
