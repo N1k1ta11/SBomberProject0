@@ -101,6 +101,16 @@ void SBomber::MoveObjects()
         if (vecDynamicObj[i] != nullptr)
         {
             vecDynamicObj[i]->Move(deltaTime);
+            Plane* pPlane = dynamic_cast<Plane*>(vecDynamicObj[i]);
+            Bomb* pBomb = dynamic_cast<Bomb*>(vecDynamicObj[i]);
+            if (pPlane != nullptr)
+            {
+                pPlane->Accept(vis);
+            }
+            if (pBomb != nullptr)
+            {
+                pBomb->Accept(vis);
+            }
         }
     }
 };

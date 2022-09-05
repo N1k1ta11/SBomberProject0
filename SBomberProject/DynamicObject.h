@@ -15,6 +15,10 @@ public:
     
     virtual void Move(uint16_t time) { x += xDirction * speed * time * 0.001; y += yDirection * speed * time * 0.001; };
 
+    double GetSpeed() { return speed; };
+    double GetxDirection() { return xDirction; }
+    double GetyDirection() { return yDirection; }
+
 protected:
 
     double speed;
