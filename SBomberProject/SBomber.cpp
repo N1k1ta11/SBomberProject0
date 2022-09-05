@@ -141,7 +141,7 @@ void SBomber::CheckPlaneAndLevelGUI()
     }*/
     Plane* pl = FindPlane();
     LevelGUI* lvl = FindLevelGUI();
-    colDet->CheckPlaneAndLvl(pl, lvl, exitFlag);
+    det->CheckPlaneAndLvl(pl, lvl, exitFlag);
 }
 
 void SBomber::CheckBombsAndGround() 
@@ -160,7 +160,7 @@ void SBomber::CheckBombsAndGround()
     //}
     vector<Bomb*> vecBombs = FindAllBombs();
     Ground* pGround = FindGround();
-    colDet->CheckBombsAndGround(vecBombs, pGround, DeleteDynamicObj)
+    det->CheckBombsAndGround(vecBombs, pGround, DeleteDynamicObj,FindDestoyableGroundObjects);
 
 }
 
@@ -207,7 +207,7 @@ void SBomber::DeleteStaticObj(GameObject* pObj)
     }
 }
 
-vector<DestroyableGroundObject*> SBomber::FindDestoyableGroundObjects() const
+vector<DestroyableGroundObject*> SBomber::FindDestoyableGroundObjects()
 {
     vector<DestroyableGroundObject*> vec;
     Tank* pTank;

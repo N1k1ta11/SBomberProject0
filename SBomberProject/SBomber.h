@@ -37,11 +37,11 @@ private:
     void __fastcall DeleteDynamicObj(DynamicObject * pBomb);
     void __fastcall DeleteStaticObj(GameObject* pObj);
 
-    CollisionDetector* colDet=new CollisionDetector();
+    unique_ptr<CollisionDetector> det = make_unique<CollisionDetector>();
     Ground * FindGround() const;
     Plane * FindPlane() const;
     LevelGUI * FindLevelGUI() const;
-    std::vector<DestroyableGroundObject*> FindDestoyableGroundObjects() const;
+    std::vector<DestroyableGroundObject*> FindDestoyableGroundObjects();
     std::vector<Bomb*> FindAllBombs() const;
 
     void DropBomb();
