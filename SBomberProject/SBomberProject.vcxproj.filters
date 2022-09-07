@@ -42,7 +42,7 @@
     <ClCompile Include="House.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="ColliionDetector.cpp">
+    <ClCompile Include="CollisionDetector.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
