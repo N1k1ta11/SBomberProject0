@@ -1,5 +1,6 @@
 #pragma once
 #include <iostream>
+#include "DestroyableGroundObject.h"
 
 class TankAdaptee
 {
@@ -11,7 +12,7 @@ public:
 
     inline uint16_t GetScore() const { return score; }
 
-    inline void SetPos(double nx, double ny) { x = nx; y = ny; }
+    inline void SetPos(double nx, double ny);
     inline double GetY() const { return y; }
     inline double GetX() const { return x; }
 
@@ -23,5 +24,18 @@ protected:
     double x, y;
     uint16_t width;
     const uint16_t score = 30;
+};
+
+class TankAdapter : public DestroyableGroundObject
+{
+private:
+    TankAdaptee* tank;
+public:
+    TankAdapter(TankAdaptee* t);
+    void SetPos(double nx, double ny) override;
+    uint16_t GetWidth() const override;
+    void Draw() const override;
+    bool __fastcall isInside(double x1, double x2) const override;
+    inline uint16_t GetScore() const override;
 };
 

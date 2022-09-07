@@ -1,7 +1,7 @@
 #pragma once
 
 #include <vector>
-
+#include "TankAdaptee.h"
 #include "LevelGUI.h"
 #include "Plane.h"
 #include "Bomb.h"
