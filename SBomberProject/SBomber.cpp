@@ -1,4 +1,4 @@
-
+#include "CollisionDetector.h"
 #include <conio.h>
 #include <windows.h>
 
@@ -135,50 +135,30 @@ void SBomber::CheckObjects()
 
 void SBomber::CheckPlaneAndLevelGUI()
 {
-    /*if (FindPlane()->GetX() > FindLevelGUI()->GetFinishX())
-    {
-        exitFlag = true;
-    }*/
     Plane* pl = FindPlane();
     LevelGUI* lvl = FindLevelGUI();
-    det->CheckPlaneAndLvl(pl, lvl, exitFlag);
+    det->newCheckPlaneAndLvlGUI(pl, lvl, exitFlag);
 }
 
 void SBomber::CheckBombsAndGround() 
 {
-    //vector<Bomb*> vecBombs = FindAllBombs();
-    //Ground* pGround = FindGround();
-    //const double y = pGround->GetY();
-    //for (size_t i = 0; i < vecBombs.size(); i++)
-    //{
-    //    if (vecBombs[i]->GetY() >= y) // Пересечение бомбы с землей
-    //    {
-    //        pGround->AddCrater(vecBombs[i]->GetX());
-    //        CheckDestoyableObjects(vecBombs[i]);
-    //        DeleteDynamicObj(vecBombs[i]);
-    //    }
-    //}
     vector<Bomb*> vecBombs = FindAllBombs();
     Ground* pGround = FindGround();
-    det->CheckBombsAndGround(vecBombs, pGround, DeleteDynamicObj,FindDestoyableGroundObjects);
-
+    const double y = pGround->GetY();
+    vector<DestroyableGroundObject*> vecDestoyableObjects = FindDestoyableGroundObjects();
+    vecBombs = det->newCheckBombsAndGround(vecBombs, vecDestoyableObjects, pGround, y);
+    for (int i = 0; i < vecBombs.size(); i++)
+    {
+        CheckDestoyableObjects(vecBombs[i]);
+        DeleteDynamicObj(vecBombs[i]);
+    }
 }
 
-void SBomber::CheckDestoyableObjects(Bomb * pBomb)
+void SBomber::CheckDestoyableObjects(Bomb* pBomb)
 {
-    vector<DestroyableGroundObject*> vecDestoyableObjects = FindDestoyableGroundObjects();
-    const double size = pBomb->GetWidth();
+    vector<DestroyableGroundObject*> vecDestoyableObjects = pBomb;
+    const double size = b->GetWidth();
     const double size_2 = size / 2;
-    for (size_t i = 0; i < vecDestoyableObjects.size(); i++)
-    {
-        const double x1 = pBomb->GetX() - size_2;
-        const double x2 = x1 + size;
-        if (vecDestoyableObjects[i]->isInside(x1, x2))
-        {
-            score += vecDestoyableObjects[i]->GetScore();
-            DeleteStaticObj(vecDestoyableObjects[i]);
-        }
-    }
 }
 
 void SBomber::DeleteDynamicObj(DynamicObject* pObj)

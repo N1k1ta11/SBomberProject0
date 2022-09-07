@@ -1,43 +1,42 @@
 #include "CollisionDetector.h"
-#include <vector>
-#include "SBomber.h"
 using namespace std;
-void CollisionDetector::CheckPlaneAndLvl(Plane* fPlane, LevelGUI* fGUI, bool& exit)
+
+void CollisionDetector::newCheckPlaneAndLvlGUI(Plane* pl, LevelGUI* lvl, bool &exit)
 {
-    if (fPlane->GetX() > fGUI->GetFinishX())
+    if (pl->GetX() > lvl->GetFinishX())
     {
         exit = true;
     }
 }
 
-void CollisionDetector::CheckBombsAndGround(vector<Bomb*>vecBombs, Ground* pGround, void (SBomber::*DelObj)(DynamicObject*), vector<DestroyableGroundObject*>(SBomber::*FindDestoyableGroundObjects)())
+vector<Bomb*> CollisionDetector::newCheckBombsAndGround(vector<Bomb*>vecBomb, vector<DestroyableGroundObject*> Obj, Ground* g, double y)
 {
-    const double y = pGround->GetY();
-    for (size_t i = 0; i < vecBombs.size(); i++)
+    vector<Bomb*>vec;
+    m_Obj = Obj;
+    for (int i = 0; i < vecBomb.size(); i++)
     {
-        if (vecBombs[i]->GetY() >= y) // Пересечение бомбы с землей
+        if (vecBomb[i]->GetY() >= y)
         {
-            pGround->AddCrater(vecBombs[i]->GetX());
-            CheckDestoyableObjects(vecBombs[i], FindDestoyableGroundObjects);
-            DelObj(vecBombs[i]);
+            g->AddCrater(vecBomb[i]->GetX());
+            //CollisionDetector::newCheckDestoyableObjects(vecBomb[i]);
+            vec.push_back(vecBomb[i]);
         }
     }
 }
 
-void CollisionDetector::CheckDestoyableObjects(Bomb* pBomb, vector<DestroyableGroundObject*> (SBomber::*FindDestoyableGroundObjects)())
+void CollisionDetector::newCheckDestoyableObjects(Bomb* b, SBomber* s)
 {
-    vector<DestroyableGroundObject*> vecDestoyableObjects = FindDestoyableGroundObjects;
-    const double size = pBomb->GetWidth();
+    vector<DestroyableGroundObject*> vecDestoyableObjects = m_Obj;
+    const double size = b->GetWidth();
     const double size_2 = size / 2;
     for (size_t i = 0; i < vecDestoyableObjects.size(); i++)
     {
-        const double size = pBomb->GetWidth();
-        const double x1 = pBomb->GetX() - size_2;
+        const double x1 = b->GetX() - size_2;
         const double x2 = x1 + size;
         if (vecDestoyableObjects[i]->isInside(x1, x2))
         {
-            score += vecDestoyableObjects[i]->GetScore();
-            DeleteStaticObj(vecDestoyableObjects[i]);
+            (*m_score) += vecDestoyableObjects[i]->GetScore();
+            s->DeleteStaticObj(vecDestoyableObjects[i]);
         }
     }
 }

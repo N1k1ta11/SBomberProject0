@@ -1,5 +1,5 @@
 #pragma once
-
+#include "CollisionDetector.h"
 #include <vector>
 
 #include "LevelGUI.h"
@@ -7,7 +7,6 @@
 #include "Bomb.h"
 #include "Ground.h"
 #include "Tank.h"
-#include "CollisionDetector.h"
 
 using namespace std;
 
@@ -29,15 +28,14 @@ public:
     void CheckObjects();
 
 private:
+    void __fastcall DeleteDynamicObj(DynamicObject* pBomb);
+    void __fastcall DeleteStaticObj(GameObject* pObj);
 
     void CheckPlaneAndLevelGUI();
     void CheckBombsAndGround();
     void __fastcall CheckDestoyableObjects(Bomb* pBomb);
 
-    void __fastcall DeleteDynamicObj(DynamicObject * pBomb);
-    void __fastcall DeleteStaticObj(GameObject* pObj);
-
-    unique_ptr<CollisionDetector> det = make_unique<CollisionDetector>();
+    CollisionDetector* det;
     Ground * FindGround() const;
     Plane * FindPlane() const;
     LevelGUI * FindLevelGUI() const;
