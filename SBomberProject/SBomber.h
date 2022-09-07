@@ -1,7 +1,7 @@
 #pragma once
 #include "CollisionDetector.h"
 #include <vector>
-
+#include <memory>
 #include "LevelGUI.h"
 #include "Plane.h"
 #include "Bomb.h"
@@ -28,8 +28,7 @@ public:
     void CheckObjects();
 
 private:
-    CollisionDetector* det = new CollisionDetector();
-
+    unique_ptr<CollisionDetector> det = make_unique<CollisionDetector>();
     void __fastcall DeleteDynamicObj(DynamicObject* pBomb);
     void __fastcall DeleteStaticObj(GameObject* pObj);
 
