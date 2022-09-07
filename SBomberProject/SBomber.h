@@ -28,14 +28,14 @@ public:
     void CheckObjects();
 
 private:
+    CollisionDetector* det = new CollisionDetector();
+
     void __fastcall DeleteDynamicObj(DynamicObject* pBomb);
     void __fastcall DeleteStaticObj(GameObject* pObj);
 
     void CheckPlaneAndLevelGUI();
     void CheckBombsAndGround();
     void __fastcall CheckDestoyableObjects(Bomb* pBomb);
-
-    CollisionDetector* det;
     Ground * FindGround() const;
     Plane * FindPlane() const;
     LevelGUI * FindLevelGUI() const;

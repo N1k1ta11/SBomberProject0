@@ -1,4 +1,3 @@
-#include "CollisionDetector.h"
 #include <conio.h>
 #include <windows.h>
 
@@ -137,7 +136,7 @@ void SBomber::CheckPlaneAndLevelGUI()
 {
     Plane* pl = FindPlane();
     LevelGUI* lvl = FindLevelGUI();
-    det->newCheckPlaneAndLvlGUI(pl, lvl, exitFlag);
+    det->CheckPlaneAndLvlGUI(pl, lvl, exitFlag);
 }
 
 void SBomber::CheckBombsAndGround() 
@@ -146,7 +145,7 @@ void SBomber::CheckBombsAndGround()
     Ground* pGround = FindGround();
     const double y = pGround->GetY();
     vector<DestroyableGroundObject*> vecDestoyableObjects = FindDestoyableGroundObjects();
-    vecBombs = det->newCheckBombsAndGround(vecBombs, vecDestoyableObjects, pGround, y);
+    vecBombs = det->CheckBombsAndGround(vecBombs,pGround, y);
     for (int i = 0; i < vecBombs.size(); i++)
     {
         CheckDestoyableObjects(vecBombs[i]);
@@ -156,9 +155,14 @@ void SBomber::CheckBombsAndGround()
 
 void SBomber::CheckDestoyableObjects(Bomb* pBomb)
 {
-    vector<DestroyableGroundObject*> vecDestoyableObjects = pBomb;
-    const double size = b->GetWidth();
+    vector<DestroyableGroundObject*> vecDestoyableObjects = FindDestoyableGroundObjects();
+    const double size = pBomb->GetWidth();
     const double size_2 = size / 2;
+    vecDestoyableObjects = det->CheckDestoyableObjects(vecDestoyableObjects, pBomb, size, size_2, score);
+    for (int i = 0; i < vecDestoyableObjects.size(); i++)
+    {
+        DeleteStaticObj(vecDestoyableObjects[i]);
+    }
 }
 
 void SBomber::DeleteDynamicObj(DynamicObject* pObj)

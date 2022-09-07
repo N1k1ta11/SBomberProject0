@@ -1,274 +1,1051 @@
-Wed Sep  7 15:27:07 2022 - SBomber::SBomber was invoked
-Wed Sep  7 15:27:07 2022 - SBomber::TimeStart was invoked
-Wed Sep  7 15:27:07 2022 - SBomber::DrawFrame was invoked
-Wed Sep  7 15:27:07 2022 - SBomber::MoveObjects was invoked
-Wed Sep  7 15:27:07 2022 - SBomber::CheckObjects was invoked
-Wed Sep  7 15:27:07 2022 - SBomber::TimeFinish deltaTime = 94
-Wed Sep  7 15:27:07 2022 - SBomber::TimeStart was invoked
-Wed Sep  7 15:27:07 2022 - SBomber::DrawFrame was invoked
-Wed Sep  7 15:27:07 2022 - SBomber::MoveObjects was invoked
-Wed Sep  7 15:27:07 2022 - SBomber::CheckObjects was invoked
-Wed Sep  7 15:27:07 2022 - SBomber::TimeFinish deltaTime = 78
-Wed Sep  7 15:27:07 2022 - SBomber::TimeStart was invoked
-Wed Sep  7 15:27:07 2022 - SBomber::DrawFrame was invoked
-Wed Sep  7 15:27:07 2022 - SBomber::MoveObjects was invoked
-Wed Sep  7 15:27:07 2022 - SBomber::CheckObjects was invoked
-Wed Sep  7 15:27:07 2022 - SBomber::TimeFinish deltaTime = 78
-Wed Sep  7 15:27:07 2022 - SBomber::TimeStart was invoked
-Wed Sep  7 15:27:07 2022 - SBomber::DrawFrame was invoked
-Wed Sep  7 15:27:07 2022 - SBomber::MoveObjects was invoked
-Wed Sep  7 15:27:07 2022 - SBomber::CheckObjects was invoked
-Wed Sep  7 15:27:07 2022 - SBomber::TimeFinish deltaTime = 78
-Wed Sep  7 15:27:07 2022 - SBomber::TimeStart was invoked
-Wed Sep  7 15:27:07 2022 - SBomber::DrawFrame was invoked
-Wed Sep  7 15:27:07 2022 - SBomber::MoveObjects was invoked
-Wed Sep  7 15:27:07 2022 - SBomber::CheckObjects was invoked
-Wed Sep  7 15:27:07 2022 - SBomber::TimeFinish deltaTime = 78
-Wed Sep  7 15:27:07 2022 - SBomber::TimeStart was invoked
-Wed Sep  7 15:27:07 2022 - SBomber::DrawFrame was invoked
-Wed Sep  7 15:27:07 2022 - SBomber::MoveObjects was invoked
-Wed Sep  7 15:27:07 2022 - SBomber::CheckObjects was invoked
-Wed Sep  7 15:27:07 2022 - SBomber::TimeFinish deltaTime = 78
-Wed Sep  7 15:27:07 2022 - SBomber::TimeStart was invoked
-Wed Sep  7 15:27:07 2022 - SBomber::DrawFrame was invoked
-Wed Sep  7 15:27:07 2022 - SBomber::MoveObjects was invoked
-Wed Sep  7 15:27:07 2022 - SBomber::CheckObjects was invoked
-Wed Sep  7 15:27:07 2022 - SBomber::TimeFinish deltaTime = 78
-Wed Sep  7 15:27:07 2022 - SBomber::TimeStart was invoked
-Wed Sep  7 15:27:07 2022 - SBomber::DrawFrame was invoked
-Wed Sep  7 15:27:07 2022 - SBomber::MoveObjects was invoked
-Wed Sep  7 15:27:07 2022 - SBomber::CheckObjects was invoked
-Wed Sep  7 15:27:07 2022 - SBomber::TimeFinish deltaTime = 110
-Wed Sep  7 15:27:07 2022 - SBomber::TimeStart was invoked
-Wed Sep  7 15:27:08 2022 - SBomber::DrawFrame was invoked
-Wed Sep  7 15:27:08 2022 - SBomber::MoveObjects was invoked
-Wed Sep  7 15:27:08 2022 - SBomber::CheckObjects was invoked
-Wed Sep  7 15:27:08 2022 - SBomber::TimeFinish deltaTime = 94
-Wed Sep  7 15:27:08 2022 - SBomber::TimeStart was invoked
-Wed Sep  7 15:27:08 2022 - SBomber::DrawFrame was invoked
-Wed Sep  7 15:27:08 2022 - SBomber::MoveObjects was invoked
-Wed Sep  7 15:27:08 2022 - SBomber::CheckObjects was invoked
-Wed Sep  7 15:27:08 2022 - SBomber::TimeFinish deltaTime = 78
-Wed Sep  7 15:27:08 2022 - SBomber::TimeStart was invoked
-Wed Sep  7 15:27:08 2022 - SBomber::DrawFrame was invoked
-Wed Sep  7 15:27:08 2022 - SBomber::MoveObjects was invoked
-Wed Sep  7 15:27:08 2022 - SBomber::CheckObjects was invoked
-Wed Sep  7 15:27:08 2022 - SBomber::TimeFinish deltaTime = 78
-Wed Sep  7 15:27:08 2022 - SBomber::TimeStart was invoked
-Wed Sep  7 15:27:08 2022 - SBomber::DrawFrame was invoked
-Wed Sep  7 15:27:08 2022 - SBomber::MoveObjects was invoked
-Wed Sep  7 15:27:08 2022 - SBomber::CheckObjects was invoked
-Wed Sep  7 15:27:08 2022 - SBomber::TimeFinish deltaTime = 78
-Wed Sep  7 15:27:08 2022 - SBomber::TimeStart was invoked
-Wed Sep  7 15:27:08 2022 - SBomber::DrawFrame was invoked
-Wed Sep  7 15:27:08 2022 - SBomber::MoveObjects was invoked
-Wed Sep  7 15:27:08 2022 - SBomber::CheckObjects was invoked
-Wed Sep  7 15:27:08 2022 - SBomber::TimeFinish deltaTime = 78
-Wed Sep  7 15:27:08 2022 - SBomber::TimeStart was invoked
-Wed Sep  7 15:27:08 2022 - SBomber::DrawFrame was invoked
-Wed Sep  7 15:27:08 2022 - SBomber::MoveObjects was invoked
-Wed Sep  7 15:27:08 2022 - SBomber::CheckObjects was invoked
-Wed Sep  7 15:27:08 2022 - SBomber::TimeFinish deltaTime = 78
-Wed Sep  7 15:27:08 2022 - SBomber::TimeStart was invoked
-Wed Sep  7 15:27:08 2022 - SBomber::DrawFrame was invoked
-Wed Sep  7 15:27:08 2022 - SBomber::MoveObjects was invoked
-Wed Sep  7 15:27:08 2022 - SBomber::CheckObjects was invoked
-Wed Sep  7 15:27:08 2022 - SBomber::TimeFinish deltaTime = 78
-Wed Sep  7 15:27:08 2022 - SBomber::TimeStart was invoked
-Wed Sep  7 15:27:08 2022 - SBomber::DrawFrame was invoked
-Wed Sep  7 15:27:08 2022 - SBomber::MoveObjects was invoked
-Wed Sep  7 15:27:08 2022 - SBomber::CheckObjects was invoked
-Wed Sep  7 15:27:08 2022 - SBomber::TimeFinish deltaTime = 78
-Wed Sep  7 15:27:08 2022 - SBomber::TimeStart was invoked
-Wed Sep  7 15:27:08 2022 - SBomber::DrawFrame was invoked
-Wed Sep  7 15:27:08 2022 - SBomber::MoveObjects was invoked
-Wed Sep  7 15:27:08 2022 - SBomber::CheckObjects was invoked
-Wed Sep  7 15:27:08 2022 - SBomber::TimeFinish deltaTime = 79
-Wed Sep  7 15:27:08 2022 - SBomber::TimeStart was invoked
-Wed Sep  7 15:27:08 2022 - SBomber::DrawFrame was invoked
-Wed Sep  7 15:27:08 2022 - SBomber::MoveObjects was invoked
-Wed Sep  7 15:27:08 2022 - SBomber::CheckObjects was invoked
-Wed Sep  7 15:27:08 2022 - SBomber::TimeFinish deltaTime = 93
-Wed Sep  7 15:27:08 2022 - SBomber::TimeStart was invoked
-Wed Sep  7 15:27:08 2022 - SBomber::DrawFrame was invoked
-Wed Sep  7 15:27:08 2022 - SBomber::MoveObjects was invoked
-Wed Sep  7 15:27:08 2022 - SBomber::CheckObjects was invoked
-Wed Sep  7 15:27:08 2022 - SBomber::TimeFinish deltaTime = 78
-Wed Sep  7 15:27:08 2022 - SBomber::TimeStart was invoked
-Wed Sep  7 15:27:08 2022 - SBomber::DrawFrame was invoked
-Wed Sep  7 15:27:08 2022 - SBomber::MoveObjects was invoked
-Wed Sep  7 15:27:08 2022 - SBomber::CheckObjects was invoked
-Wed Sep  7 15:27:08 2022 - SBomber::TimeFinish deltaTime = 79
-Wed Sep  7 15:27:08 2022 - SBomber::TimeStart was invoked
-Wed Sep  7 15:27:08 2022 - SBomber::DrawFrame was invoked
-Wed Sep  7 15:27:09 2022 - SBomber::MoveObjects was invoked
-Wed Sep  7 15:27:09 2022 - SBomber::CheckObjects was invoked
-Wed Sep  7 15:27:09 2022 - SBomber::TimeFinish deltaTime = 78
-Wed Sep  7 15:27:09 2022 - SBomber::TimeStart was invoked
-Wed Sep  7 15:27:09 2022 - SBomber::DrawFrame was invoked
-Wed Sep  7 15:27:09 2022 - SBomber::MoveObjects was invoked
-Wed Sep  7 15:27:09 2022 - SBomber::CheckObjects was invoked
-Wed Sep  7 15:27:09 2022 - SBomber::TimeFinish deltaTime = 78
-Wed Sep  7 15:27:09 2022 - SBomber::TimeStart was invoked
-Wed Sep  7 15:27:09 2022 - SBomber::DrawFrame was invoked
-Wed Sep  7 15:27:09 2022 - SBomber::MoveObjects was invoked
-Wed Sep  7 15:27:09 2022 - SBomber::CheckObjects was invoked
-Wed Sep  7 15:27:09 2022 - SBomber::TimeFinish deltaTime = 78
-Wed Sep  7 15:27:09 2022 - SBomber::TimeStart was invoked
-Wed Sep  7 15:27:09 2022 - SBomber::DrawFrame was invoked
-Wed Sep  7 15:27:09 2022 - SBomber::MoveObjects was invoked
-Wed Sep  7 15:27:09 2022 - SBomber::CheckObjects was invoked
-Wed Sep  7 15:27:09 2022 - SBomber::TimeFinish deltaTime = 78
-Wed Sep  7 15:27:09 2022 - SBomber::TimeStart was invoked
-Wed Sep  7 15:27:09 2022 - SBomber::DrawFrame was invoked
-Wed Sep  7 15:27:09 2022 - SBomber::MoveObjects was invoked
-Wed Sep  7 15:27:09 2022 - SBomber::CheckObjects was invoked
-Wed Sep  7 15:27:09 2022 - SBomber::TimeFinish deltaTime = 78
-Wed Sep  7 15:27:09 2022 - SBomber::TimeStart was invoked
-Wed Sep  7 15:27:09 2022 - SBomber::DrawFrame was invoked
-Wed Sep  7 15:27:09 2022 - SBomber::MoveObjects was invoked
-Wed Sep  7 15:27:09 2022 - SBomber::CheckObjects was invoked
-Wed Sep  7 15:27:09 2022 - SBomber::TimeFinish deltaTime = 78
-Wed Sep  7 15:27:09 2022 - SBomber::TimeStart was invoked
-Wed Sep  7 15:27:09 2022 - SBomber::DrawFrame was invoked
-Wed Sep  7 15:27:09 2022 - SBomber::MoveObjects was invoked
-Wed Sep  7 15:27:09 2022 - SBomber::CheckObjects was invoked
-Wed Sep  7 15:27:09 2022 - SBomber::TimeFinish deltaTime = 78
-Wed Sep  7 15:27:09 2022 - SBomber::TimeStart was invoked
-Wed Sep  7 15:27:09 2022 - SBomber::DrawFrame was invoked
-Wed Sep  7 15:27:09 2022 - SBomber::MoveObjects was invoked
-Wed Sep  7 15:27:09 2022 - SBomber::CheckObjects was invoked
-Wed Sep  7 15:27:09 2022 - SBomber::TimeFinish deltaTime = 79
-Wed Sep  7 15:27:09 2022 - SBomber::TimeStart was invoked
-Wed Sep  7 15:27:09 2022 - SBomber::DrawFrame was invoked
-Wed Sep  7 15:27:09 2022 - SBomber::MoveObjects was invoked
-Wed Sep  7 15:27:09 2022 - SBomber::CheckObjects was invoked
-Wed Sep  7 15:27:09 2022 - SBomber::TimeFinish deltaTime = 78
-Wed Sep  7 15:27:09 2022 - SBomber::TimeStart was invoked
-Wed Sep  7 15:27:09 2022 - SBomber::ProcessKBHit was invoked. key = 98
-Wed Sep  7 15:27:09 2022 - SBomber::DropBomb was invoked
-Wed Sep  7 15:27:09 2022 - SBomber::DrawFrame was invoked
-Wed Sep  7 15:27:09 2022 - SBomber::MoveObjects was invoked
-Wed Sep  7 15:27:09 2022 - SBomber::CheckObjects was invoked
-Wed Sep  7 15:27:09 2022 - SBomber::TimeFinish deltaTime = 78
-Wed Sep  7 15:27:09 2022 - SBomber::TimeStart was invoked
-Wed Sep  7 15:27:09 2022 - SBomber::DrawFrame was invoked
-Wed Sep  7 15:27:09 2022 - SBomber::MoveObjects was invoked
-Wed Sep  7 15:27:09 2022 - SBomber::CheckObjects was invoked
-Wed Sep  7 15:27:09 2022 - SBomber::TimeFinish deltaTime = 78
-Wed Sep  7 15:27:09 2022 - SBomber::TimeStart was invoked
-Wed Sep  7 15:27:09 2022 - SBomber::DrawFrame was invoked
-Wed Sep  7 15:27:09 2022 - SBomber::MoveObjects was invoked
-Wed Sep  7 15:27:09 2022 - SBomber::CheckObjects was invoked
-Wed Sep  7 15:27:09 2022 - SBomber::TimeFinish deltaTime = 78
-Wed Sep  7 15:27:09 2022 - SBomber::TimeStart was invoked
-Wed Sep  7 15:27:09 2022 - SBomber::DrawFrame was invoked
-Wed Sep  7 15:27:09 2022 - SBomber::MoveObjects was invoked
-Wed Sep  7 15:27:09 2022 - SBomber::CheckObjects was invoked
-Wed Sep  7 15:27:09 2022 - SBomber::TimeFinish deltaTime = 78
-Wed Sep  7 15:27:09 2022 - SBomber::TimeStart was invoked
-Wed Sep  7 15:27:10 2022 - SBomber::DrawFrame was invoked
-Wed Sep  7 15:27:10 2022 - SBomber::MoveObjects was invoked
-Wed Sep  7 15:27:10 2022 - SBomber::CheckObjects was invoked
-Wed Sep  7 15:27:10 2022 - SBomber::TimeFinish deltaTime = 78
-Wed Sep  7 15:27:10 2022 - SBomber::TimeStart was invoked
-Wed Sep  7 15:27:10 2022 - SBomber::DrawFrame was invoked
-Wed Sep  7 15:27:10 2022 - SBomber::MoveObjects was invoked
-Wed Sep  7 15:27:10 2022 - SBomber::CheckObjects was invoked
-Wed Sep  7 15:27:10 2022 - SBomber::TimeFinish deltaTime = 78
-Wed Sep  7 15:27:10 2022 - SBomber::TimeStart was invoked
-Wed Sep  7 15:27:10 2022 - SBomber::DrawFrame was invoked
-Wed Sep  7 15:27:10 2022 - SBomber::MoveObjects was invoked
-Wed Sep  7 15:27:10 2022 - SBomber::CheckObjects was invoked
-Wed Sep  7 15:27:10 2022 - SBomber::TimeFinish deltaTime = 79
-Wed Sep  7 15:27:10 2022 - SBomber::TimeStart was invoked
-Wed Sep  7 15:27:10 2022 - SBomber::DrawFrame was invoked
-Wed Sep  7 15:27:10 2022 - SBomber::MoveObjects was invoked
-Wed Sep  7 15:27:10 2022 - SBomber::CheckObjects was invoked
-Wed Sep  7 15:27:10 2022 - SBomber::TimeFinish deltaTime = 78
-Wed Sep  7 15:27:10 2022 - SBomber::TimeStart was invoked
-Wed Sep  7 15:27:10 2022 - SBomber::DrawFrame was invoked
-Wed Sep  7 15:27:10 2022 - SBomber::MoveObjects was invoked
-Wed Sep  7 15:27:10 2022 - SBomber::CheckObjects was invoked
-Wed Sep  7 15:27:10 2022 - SBomber::TimeFinish deltaTime = 78
-Wed Sep  7 15:27:10 2022 - SBomber::TimeStart was invoked
-Wed Sep  7 15:27:10 2022 - SBomber::DrawFrame was invoked
-Wed Sep  7 15:27:10 2022 - SBomber::MoveObjects was invoked
-Wed Sep  7 15:27:10 2022 - SBomber::CheckObjects was invoked
-Wed Sep  7 15:27:10 2022 - SBomber::TimeFinish deltaTime = 78
-Wed Sep  7 15:27:10 2022 - SBomber::TimeStart was invoked
-Wed Sep  7 15:27:10 2022 - SBomber::DrawFrame was invoked
-Wed Sep  7 15:27:10 2022 - SBomber::MoveObjects was invoked
-Wed Sep  7 15:27:10 2022 - SBomber::CheckObjects was invoked
-Wed Sep  7 15:27:10 2022 - SBomber::TimeFinish deltaTime = 78
-Wed Sep  7 15:27:10 2022 - SBomber::TimeStart was invoked
-Wed Sep  7 15:27:10 2022 - SBomber::DrawFrame was invoked
-Wed Sep  7 15:27:10 2022 - SBomber::MoveObjects was invoked
-Wed Sep  7 15:27:10 2022 - SBomber::CheckObjects was invoked
-Wed Sep  7 15:27:10 2022 - SBomber::TimeFinish deltaTime = 78
-Wed Sep  7 15:27:10 2022 - SBomber::TimeStart was invoked
-Wed Sep  7 15:27:10 2022 - SBomber::DrawFrame was invoked
-Wed Sep  7 15:27:10 2022 - SBomber::MoveObjects was invoked
-Wed Sep  7 15:27:10 2022 - SBomber::CheckObjects was invoked
-Wed Sep  7 15:27:10 2022 - SBomber::TimeFinish deltaTime = 78
-Wed Sep  7 15:27:10 2022 - SBomber::TimeStart was invoked
-Wed Sep  7 15:27:10 2022 - SBomber::DrawFrame was invoked
-Wed Sep  7 15:27:10 2022 - SBomber::MoveObjects was invoked
-Wed Sep  7 15:27:10 2022 - SBomber::CheckObjects was invoked
-Wed Sep  7 15:27:10 2022 - SBomber::TimeFinish deltaTime = 78
-Wed Sep  7 15:27:10 2022 - SBomber::TimeStart was invoked
-Wed Sep  7 15:27:10 2022 - SBomber::DrawFrame was invoked
-Wed Sep  7 15:27:10 2022 - SBomber::MoveObjects was invoked
-Wed Sep  7 15:27:10 2022 - SBomber::CheckObjects was invoked
-Wed Sep  7 15:27:10 2022 - SBomber::TimeFinish deltaTime = 79
-Wed Sep  7 15:27:10 2022 - SBomber::TimeStart was invoked
-Wed Sep  7 15:27:10 2022 - SBomber::DrawFrame was invoked
-Wed Sep  7 15:27:10 2022 - SBomber::MoveObjects was invoked
-Wed Sep  7 15:27:10 2022 - SBomber::CheckObjects was invoked
-Wed Sep  7 15:27:10 2022 - SBomber::TimeFinish deltaTime = 78
-Wed Sep  7 15:27:10 2022 - SBomber::TimeStart was invoked
-Wed Sep  7 15:27:10 2022 - SBomber::DrawFrame was invoked
-Wed Sep  7 15:27:10 2022 - SBomber::MoveObjects was invoked
-Wed Sep  7 15:27:10 2022 - SBomber::CheckObjects was invoked
-Wed Sep  7 15:27:11 2022 - SBomber::TimeFinish deltaTime = 93
-Wed Sep  7 15:27:11 2022 - SBomber::TimeStart was invoked
-Wed Sep  7 15:27:11 2022 - SBomber::DrawFrame was invoked
-Wed Sep  7 15:27:11 2022 - SBomber::MoveObjects was invoked
-Wed Sep  7 15:27:11 2022 - SBomber::CheckObjects was invoked
-Wed Sep  7 15:27:11 2022 - SBomber::TimeFinish deltaTime = 79
-Wed Sep  7 15:27:11 2022 - SBomber::TimeStart was invoked
-Wed Sep  7 15:27:11 2022 - SBomber::DrawFrame was invoked
-Wed Sep  7 15:27:11 2022 - SBomber::MoveObjects was invoked
-Wed Sep  7 15:27:11 2022 - SBomber::CheckObjects was invoked
-Wed Sep  7 15:27:11 2022 - SBomber::TimeFinish deltaTime = 78
-Wed Sep  7 15:27:11 2022 - SBomber::TimeStart was invoked
-Wed Sep  7 15:27:11 2022 - SBomber::DrawFrame was invoked
-Wed Sep  7 15:27:11 2022 - SBomber::MoveObjects was invoked
-Wed Sep  7 15:27:11 2022 - SBomber::CheckObjects was invoked
-Wed Sep  7 15:27:11 2022 - SBomber::TimeFinish deltaTime = 78
-Wed Sep  7 15:27:11 2022 - SBomber::TimeStart was invoked
-Wed Sep  7 15:27:11 2022 - SBomber::DrawFrame was invoked
-Wed Sep  7 15:27:11 2022 - SBomber::MoveObjects was invoked
-Wed Sep  7 15:27:11 2022 - SBomber::CheckObjects was invoked
-Wed Sep  7 15:27:11 2022 - SBomber::TimeFinish deltaTime = 78
-Wed Sep  7 15:27:11 2022 - SBomber::TimeStart was invoked
-Wed Sep  7 15:27:11 2022 - SBomber::DrawFrame was invoked
-Wed Sep  7 15:27:11 2022 - SBomber::MoveObjects was invoked
-Wed Sep  7 15:27:11 2022 - SBomber::CheckObjects was invoked
-Wed Sep  7 15:27:11 2022 - SBomber::TimeFinish deltaTime = 78
-Wed Sep  7 15:27:11 2022 - SBomber::TimeStart was invoked
-Wed Sep  7 15:27:11 2022 - SBomber::DrawFrame was invoked
-Wed Sep  7 15:27:11 2022 - SBomber::MoveObjects was invoked
-Wed Sep  7 15:27:11 2022 - SBomber::CheckObjects was invoked
-Wed Sep  7 15:27:11 2022 - SBomber::TimeFinish deltaTime = 78
-Wed Sep  7 15:27:11 2022 - SBomber::TimeStart was invoked
-Wed Sep  7 15:27:11 2022 - SBomber::DrawFrame was invoked
-Wed Sep  7 15:27:11 2022 - SBomber::MoveObjects was invoked
-Wed Sep  7 15:27:11 2022 - SBomber::CheckObjects was invoked
-Wed Sep  7 15:27:11 2022 - SBomber::TimeFinish deltaTime = 78
-Wed Sep  7 15:27:11 2022 - SBomber::TimeStart was invoked
-Wed Sep  7 15:27:11 2022 - SBomber::DrawFrame was invoked
-Wed Sep  7 15:27:11 2022 - SBomber::MoveObjects was invoked
-Wed Sep  7 15:27:11 2022 - SBomber::CheckObjects was invoked
-Wed Sep  7 15:27:11 2022 - SBomber::TimeFinish deltaTime = 78
-Wed Sep  7 15:27:11 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:10 2022 - SBomber::SBomber was invoked
+Wed Sep  7 19:26:10 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:10 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:10 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:10 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:10 2022 - SBomber::TimeFinish deltaTime = 93
+Wed Sep  7 19:26:10 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:10 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:10 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:10 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:10 2022 - SBomber::TimeFinish deltaTime = 79
+Wed Sep  7 19:26:10 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:10 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:10 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:10 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:10 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:10 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:10 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:10 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:10 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:10 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:10 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:10 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:10 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:10 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:10 2022 - SBomber::TimeFinish deltaTime = 94
+Wed Sep  7 19:26:10 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:10 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:10 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:10 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:10 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:10 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:10 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:10 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:10 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:10 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:10 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:10 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:10 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:10 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:10 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:10 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:10 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:10 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:10 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:11 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:11 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:11 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:11 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:11 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:11 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:11 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:11 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:11 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:11 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:11 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:11 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:11 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:11 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:11 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:11 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:11 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:11 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:11 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:11 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:11 2022 - SBomber::TimeFinish deltaTime = 79
+Wed Sep  7 19:26:11 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:11 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:11 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:11 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:11 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:11 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:11 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:11 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:11 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:11 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:11 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:11 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:11 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:11 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:11 2022 - SBomber::TimeFinish deltaTime = 94
+Wed Sep  7 19:26:11 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:11 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:11 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:11 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:11 2022 - SBomber::TimeFinish deltaTime = 93
+Wed Sep  7 19:26:11 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:11 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:11 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:11 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:11 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:11 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:11 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:11 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:11 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:11 2022 - SBomber::TimeFinish deltaTime = 79
+Wed Sep  7 19:26:11 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:11 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:11 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:11 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:11 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:11 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:11 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:11 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:11 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:11 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:11 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:12 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:12 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:12 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:12 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:12 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:12 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:12 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:12 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:12 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:12 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:12 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:12 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:12 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:12 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:12 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:12 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:12 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:12 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:12 2022 - SBomber::TimeFinish deltaTime = 94
+Wed Sep  7 19:26:12 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:12 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:12 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:12 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:12 2022 - SBomber::TimeFinish deltaTime = 94
+Wed Sep  7 19:26:12 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:12 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:12 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:12 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:12 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:12 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:12 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:12 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:12 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:12 2022 - SBomber::TimeFinish deltaTime = 94
+Wed Sep  7 19:26:12 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:12 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:12 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:12 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:12 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:12 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:12 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:12 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:12 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:12 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:12 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:12 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:12 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:12 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:12 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:12 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:12 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:12 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:12 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:12 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:12 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:12 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:12 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:12 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:12 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:12 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:13 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:13 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:13 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:13 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:13 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:13 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:13 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:13 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:13 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:13 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:13 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:13 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:13 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:13 2022 - SBomber::TimeFinish deltaTime = 79
+Wed Sep  7 19:26:13 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:13 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:13 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:13 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:13 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:13 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:13 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:13 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:13 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:13 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:13 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:13 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:13 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:13 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:13 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:13 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:13 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:13 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:13 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:13 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:13 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:13 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:13 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:13 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:13 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:13 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:13 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:13 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:13 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:13 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:13 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:13 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:13 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:13 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:13 2022 - SBomber::TimeFinish deltaTime = 94
+Wed Sep  7 19:26:13 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:13 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:13 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:13 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:13 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:13 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:13 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:13 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:13 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:13 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:13 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:13 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:13 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:13 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:14 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:14 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:14 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:14 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:14 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:14 2022 - SBomber::TimeFinish deltaTime = 79
+Wed Sep  7 19:26:14 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:14 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:14 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:14 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:14 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:14 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:14 2022 - SBomber::ProcessKBHit was invoked. key = 168
+Wed Sep  7 19:26:14 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:14 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:14 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:14 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:14 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:14 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:14 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:14 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:14 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:14 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:14 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:14 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:14 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:14 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:14 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:14 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:14 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:14 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:14 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:14 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:14 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:14 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:14 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:14 2022 - SBomber::TimeFinish deltaTime = 94
+Wed Sep  7 19:26:14 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:14 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:14 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:14 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:14 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:14 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:14 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:14 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:14 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:14 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:14 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:14 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:14 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:14 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:14 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:14 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:14 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:14 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:14 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:14 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:14 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:14 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:14 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:14 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:14 2022 - SBomber::TimeFinish deltaTime = 79
+Wed Sep  7 19:26:14 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:15 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:15 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:15 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:15 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:15 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:15 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:15 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:15 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:15 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:15 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:15 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:15 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:15 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:15 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:15 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:15 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:15 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:15 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:15 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:15 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:15 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:15 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:15 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:15 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:15 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:15 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:15 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:15 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:15 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:15 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:15 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:15 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:15 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:15 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:15 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:15 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:15 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:15 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:15 2022 - SBomber::TimeFinish deltaTime = 79
+Wed Sep  7 19:26:15 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:15 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:15 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:15 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:15 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:15 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:15 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:15 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:15 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:15 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:15 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:15 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:15 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:15 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:15 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:15 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:15 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:15 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:15 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:15 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:15 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:15 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:15 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:15 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:15 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:15 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:16 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:16 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:16 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:16 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:16 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:16 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:16 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:16 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:16 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:16 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:16 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:16 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:16 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:16 2022 - SBomber::TimeFinish deltaTime = 79
+Wed Sep  7 19:26:16 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:16 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:16 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:16 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:16 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:16 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:16 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:16 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:16 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:16 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:16 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:16 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:16 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:16 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:16 2022 - SBomber::TimeFinish deltaTime = 94
+Wed Sep  7 19:26:16 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:16 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:16 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:16 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:16 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:16 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:16 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:16 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:16 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:16 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:16 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:16 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:16 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:16 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:16 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:16 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:16 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:16 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:16 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:16 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:16 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:16 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:16 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:16 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:16 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:16 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:16 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:16 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:16 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:16 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:16 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:16 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:16 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:16 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:17 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:17 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:17 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:17 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:17 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:17 2022 - SBomber::TimeFinish deltaTime = 79
+Wed Sep  7 19:26:17 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:17 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:17 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:17 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:17 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:17 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:17 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:17 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:17 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:17 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:17 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:17 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:17 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:17 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:17 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:17 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:17 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:17 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:17 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:17 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:17 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:17 2022 - SBomber::ProcessKBHit was invoked. key = 98
+Wed Sep  7 19:26:17 2022 - SBomber::DropBomb was invoked
+Wed Sep  7 19:26:17 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:17 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:17 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:17 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:17 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:17 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:17 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:17 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:17 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:17 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:17 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:17 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:17 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:17 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:17 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:17 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:17 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:17 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:17 2022 - SBomber::TimeFinish deltaTime = 79
+Wed Sep  7 19:26:17 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:17 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:17 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:17 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:17 2022 - SBomber::TimeFinish deltaTime = 93
+Wed Sep  7 19:26:17 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:17 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:17 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:17 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:17 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:17 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:17 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:17 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:17 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:17 2022 - SBomber::TimeFinish deltaTime = 79
+Wed Sep  7 19:26:17 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:17 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:18 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:18 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:18 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:18 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:18 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:18 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:18 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:18 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:18 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:18 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:18 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:18 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:18 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:18 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:18 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:18 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:18 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:18 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:18 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:18 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:18 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:18 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:18 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:18 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:18 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:18 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:18 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:18 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:18 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:18 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:18 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:18 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:18 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:18 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:18 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:18 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:18 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:18 2022 - SBomber::TimeFinish deltaTime = 79
+Wed Sep  7 19:26:18 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:18 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:18 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:18 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:18 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:18 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:18 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:18 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:18 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:18 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:18 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:18 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:18 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:18 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:18 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:18 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:18 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:18 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:18 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:18 2022 - SBomber::TimeFinish deltaTime = 94
+Wed Sep  7 19:26:18 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:18 2022 - SBomber::ProcessKBHit was invoked. key = 72
+Wed Sep  7 19:26:18 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:18 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:18 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:18 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:18 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:19 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:19 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:19 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:19 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:19 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:19 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:19 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:19 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:19 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:19 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:19 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:19 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:19 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:19 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:19 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:19 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:19 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:19 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:19 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:19 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:19 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:19 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:19 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:19 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:19 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:19 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:19 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:19 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:19 2022 - SBomber::TimeFinish deltaTime = 79
+Wed Sep  7 19:26:19 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:19 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:19 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:19 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:19 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:19 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:19 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:19 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:19 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:19 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:19 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:19 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:19 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:19 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:19 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:19 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:19 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:19 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:19 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:19 2022 - SBomber::TimeFinish deltaTime = 94
+Wed Sep  7 19:26:19 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:19 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:19 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:19 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:19 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:19 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:19 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:19 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:19 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:19 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:19 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:19 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:19 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:19 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:20 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:20 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:20 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:20 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:20 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:20 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:20 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:20 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:20 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:20 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:20 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:20 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:20 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:20 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:20 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:20 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:20 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:20 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:20 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:20 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:20 2022 - SBomber::TimeFinish deltaTime = 79
+Wed Sep  7 19:26:20 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:20 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:20 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:20 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:20 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:20 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:20 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:20 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:20 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:20 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:20 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:20 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:20 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:20 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:20 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:20 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:20 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:20 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:20 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:20 2022 - SBomber::TimeFinish deltaTime = 94
+Wed Sep  7 19:26:20 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:20 2022 - SBomber::ProcessKBHit was invoked. key = 98
+Wed Sep  7 19:26:20 2022 - SBomber::DropBomb was invoked
+Wed Sep  7 19:26:20 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:20 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:20 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:20 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:20 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:20 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:20 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:20 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:20 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:20 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:20 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:20 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:20 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:20 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:20 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:20 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:20 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:20 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:20 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:20 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:21 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:21 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:21 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:21 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:21 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:21 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:21 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:21 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:21 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:21 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:21 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:21 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:21 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:21 2022 - SBomber::TimeFinish deltaTime = 79
+Wed Sep  7 19:26:21 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:21 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:21 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:21 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:21 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:21 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:21 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:21 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:21 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:21 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:21 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:21 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:21 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:21 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:21 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:21 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:21 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:21 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:21 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:21 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:21 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:21 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:21 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:21 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:21 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:21 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:21 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:21 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:21 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:21 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:21 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:21 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:21 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:21 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:21 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:21 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:21 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:21 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:21 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:21 2022 - SBomber::TimeFinish deltaTime = 79
+Wed Sep  7 19:26:21 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:21 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:21 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:21 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:21 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:21 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:21 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:21 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:21 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:22 2022 - SBomber::TimeFinish deltaTime = 93
+Wed Sep  7 19:26:22 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:22 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:22 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:22 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:22 2022 - SBomber::TimeFinish deltaTime = 79
+Wed Sep  7 19:26:22 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:22 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:22 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:22 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:22 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:22 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:22 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:22 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:22 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:22 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:22 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:22 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:22 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:22 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:22 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:22 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:22 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:22 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:22 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:22 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:22 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:22 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:22 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:22 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:22 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:22 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:22 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:22 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:22 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:22 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:22 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:22 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:22 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:22 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:22 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:22 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:22 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:22 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:22 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:22 2022 - SBomber::TimeFinish deltaTime = 94
+Wed Sep  7 19:26:22 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:22 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:22 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:22 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:22 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:22 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:22 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:22 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:22 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:22 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:22 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:22 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:22 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:22 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:22 2022 - SBomber::TimeFinish deltaTime = 79
+Wed Sep  7 19:26:22 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:23 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:23 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:23 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:23 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:23 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:23 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:23 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:23 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:23 2022 - SBomber::TimeFinish deltaTime = 93
+Wed Sep  7 19:26:23 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:23 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:23 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:23 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:23 2022 - SBomber::TimeFinish deltaTime = 79
+Wed Sep  7 19:26:23 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:23 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:23 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:23 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:23 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:23 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:23 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:23 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:23 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:23 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:23 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:23 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:23 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:23 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:23 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:23 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:23 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:23 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:23 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:23 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:23 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:23 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:23 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:23 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:23 2022 - SBomber::TimeFinish deltaTime = 94
+Wed Sep  7 19:26:23 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:23 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:23 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:23 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:23 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:23 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:23 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:23 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:23 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:23 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:23 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:23 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:23 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:23 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:23 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:23 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:23 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:23 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:23 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:23 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:23 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:23 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:23 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:23 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:24 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:24 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:24 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:24 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:24 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:24 2022 - SBomber::TimeFinish deltaTime = 79
+Wed Sep  7 19:26:24 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:24 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:24 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:24 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:24 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:24 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:24 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:24 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:24 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:24 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:24 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:24 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:24 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:24 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:24 2022 - SBomber::TimeFinish deltaTime = 94
+Wed Sep  7 19:26:24 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:24 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:24 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:24 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:24 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:24 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:24 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:24 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:24 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:24 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:24 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:24 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:24 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:24 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:24 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:24 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:24 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:24 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:24 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:24 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:24 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:24 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:24 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:24 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:24 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:24 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:24 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:24 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:24 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:24 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:24 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:24 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:24 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:24 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:24 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:24 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:24 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:24 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:24 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:24 2022 - SBomber::TimeFinish deltaTime = 79
+Wed Sep  7 19:26:24 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:25 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:25 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:25 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:25 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:25 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:25 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:25 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:25 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:25 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:25 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:25 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:25 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:25 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:25 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:25 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:25 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:25 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:25 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:25 2022 - SBomber::TimeFinish deltaTime = 94
+Wed Sep  7 19:26:25 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:25 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:25 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:25 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:25 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:25 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:25 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:25 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:25 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:25 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:25 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:25 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:25 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:25 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:25 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:25 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:25 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:25 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:25 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:25 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:25 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:25 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:25 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:25 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:25 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:25 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:25 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:25 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:25 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:25 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:25 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:25 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:25 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:25 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:25 2022 - SBomber::TimeFinish deltaTime = 79
+Wed Sep  7 19:26:25 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:25 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:25 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:25 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:25 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:25 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:25 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:25 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:25 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:25 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:25 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:26 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:26 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:26 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:26 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:26 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:26 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:26 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:26 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:26 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:26 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:26 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:26 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:26 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:26 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:26 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:26 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:26 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:26 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:26 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:26 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:26 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:26 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:26 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:26 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:26 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:26 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:26 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:26 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:26 2022 - SBomber::TimeFinish deltaTime = 94
+Wed Sep  7 19:26:26 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:26 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:26 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:26 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:26 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:26 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:26 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:26 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:26 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:26 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:26 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:26 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:26 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:26 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:26 2022 - SBomber::TimeFinish deltaTime = 79
+Wed Sep  7 19:26:26 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:26 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:26 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:26 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:26 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:26 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:26 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:26 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:26 2022 - SBomber::CheckObjects was invoked
+Wed Sep  7 19:26:26 2022 - SBomber::TimeFinish deltaTime = 78
+Wed Sep  7 19:26:26 2022 - SBomber::TimeStart was invoked
+Wed Sep  7 19:26:26 2022 - SBomber::DrawFrame was invoked
+Wed Sep  7 19:26:26 2022 - SBomber::MoveObjects was invoked
+Wed Sep  7 19:26:26 2022 - SBomber::CheckObjects was invoked

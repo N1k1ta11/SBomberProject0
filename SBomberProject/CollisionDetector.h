@@ -1,5 +1,4 @@
 #pragma once
-#include "SBomber.h"
 #include "Plane.h"
 #include "DestroyableGroundObject.h"
 #include "LevelGUI.h"
@@ -13,11 +12,8 @@ using namespace std;
 class CollisionDetector
 {
 public:
-	void newCheckPlaneAndLvlGUI(Plane* pl, LevelGUI* lvl,bool &exit);
-	vector<Bomb*> newCheckBombsAndGround(vector<Bomb*>vecBomb, vector<DestroyableGroundObject*> Obj, Ground* g, double y);
-	void newCheckDestoyableObjects(Bomb* b, SBomber* s);
+	void CheckPlaneAndLvlGUI(Plane* pl, LevelGUI* lvl,bool &exit);
+	vector<Bomb*> CheckBombsAndGround(vector<Bomb*>vecBomb,Ground* g, double y);
+	vector<DestroyableGroundObject*> CheckDestoyableObjects(vector<DestroyableGroundObject*> destObj,Bomb* b,double size, double size_2, int16_t &score);
 
-private:
-	vector<DestroyableGroundObject*> m_Obj;
-	int16_t* m_score;
 };
