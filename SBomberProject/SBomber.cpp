@@ -8,6 +8,9 @@
 #include "Ground.h"
 #include "Tank.h"
 #include "House.h"
+#include "CompositeHouseTree.h"
+#include "CompositeHouseWalls.h"
+#include "CompositeHouseRoof.h"
 
 using namespace std;
 using namespace MyTools;
@@ -58,11 +61,21 @@ SBomber::SBomber()
     pTank->SetPos(50, groundY - 1);
     vecStaticObj.push_back(pTank);
 
-    House * pHouse = new House;
+    /*House * pHouse = new House;
     pHouse->SetWidth(13);
     pHouse->SetPos(80, groundY - 1);
-    vecStaticObj.push_back(pHouse);
+    vecStaticObj.push_back(pHouse);*/
 
+    CompositeHouseTree* pHouse = new CompositeHouseTree;
+    CompositeHouseWalls* pWalls = new CompositeHouseWalls;
+    pWalls->SetWidth(13);
+    pWalls->SetPos(80, groundY - 1);
+    pHouse->AddChild(pWalls);
+    CompositeHouseRoof* pRoof = new CompositeHouseRoof;
+    pRoof->SetWidth(13);
+    pRoof->SetPos(80, groundY - 1);
+    pHouse->AddChild(pRoof);
+    vecStaticObj.push_back(pHouse);
     /*
     Bomb* pBomb = new Bomb;
     pBomb->SetDirection(0.3, 1);
@@ -186,6 +199,7 @@ vector<DestroyableGroundObject*> SBomber::FindDestoyableGroundObjects() const
     vector<DestroyableGroundObject*> vec;
     Tank* pTank;
     House* pHouse;
+    CompositeHouseTree* tHouse;
     for (size_t i = 0; i < vecStaticObj.size(); i++)
     {
         pTank = dynamic_cast<Tank*>(vecStaticObj[i]);
@@ -199,6 +213,13 @@ vector<DestroyableGroundObject*> SBomber::FindDestoyableGroundObjects() const
         if (pHouse != nullptr)
         {
             vec.push_back(pHouse);
+            continue;
+        }
+
+        tHouse = dynamic_cast<CompositeHouseTree*>(vecStaticObj[i]);
+        if (tHouse != nullptr)
+        {
+            vec.push_back(tHouse);
             continue;
         }
     }
