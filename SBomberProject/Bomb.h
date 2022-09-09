@@ -9,7 +9,6 @@
 class Bomb : public DynamicObject
 {
 public:
-	std::vector<DestroyableGroundObject*>vecObs;
 
 	static const uint16_t BombCost = 10; // стоимость бомбы в очках
 
@@ -19,7 +18,7 @@ public:
 
 	void AddObserver(DestroyableGroundObject* o);
 
-	void RemoveObserver(std::vector<DestroyableGroundObject*>::iterator it);
+	void RemoveObserver(DestroyableGroundObject* obj);
 
 	DestroyableGroundObject* CheckDestroyableObject()
 	{
@@ -39,5 +38,6 @@ public:
 		
 	}
 private:
+	std::vector<DestroyableGroundObject*>vecObs;
 };
 

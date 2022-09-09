@@ -162,7 +162,7 @@ void SBomber::CheckDestoyableObjects(DestroyableGroundObject * pDestObj)
     vector<Bomb*> vecBombs = FindAllBombs();
     for (auto i : vecBombs)
     {
-        i->RemoveObserver(find(i->vecObs.begin(), i->vecObs.end(), pDestObj));
+        i->RemoveObserver(pDestObj);
     }
     DeleteStaticObj(pDestObj);
 

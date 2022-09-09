@@ -25,7 +25,8 @@ void Bomb::AddObserver(DestroyableGroundObject* o)
     vecObs.push_back(o); 
 }
 
-void Bomb::RemoveObserver(vector<DestroyableGroundObject*>::iterator it)
+void Bomb::RemoveObserver(DestroyableGroundObject* obj)
 {
+    auto it = find(vecObs.begin(), vecObs.end(), obj);
     vecObs.erase(it);
 }
