@@ -136,39 +136,35 @@ void SBomber::CheckBombsAndGround()
     vector<Bomb*> vecBombs = FindAllBombs();
     Ground* pGround = FindGround();
     const double y = pGround->GetY();
+
     for (size_t i = 0; i < vecBombs.size(); i++)
     {
+        for (auto j : FindDestoyableGroundObjects())
+        {
+            vecBombs[i]->AddObserver(j);
+        }
+
         if (vecBombs[i]->GetY() >= y) // Пересечение бомбы с землей
         {
-            for (auto j : FindDestoyableGroundObjects())
-            {
-                vecBombs[i]->AddObserver(j);
-            }
             pGround->AddCrater(vecBombs[i]->GetX());
             //CheckDestoyableObjects(vecBombs[i]);
-            vecBombs[i]->CheckDestroyableObject();
+            DestroyableGroundObject* obj = vecBombs[i]->CheckDestroyableObject();
+            CheckDestoyableObjects(obj);
             DeleteDynamicObj(vecBombs[i]);
         }
     }
 
 }
 
-void SBomber::CheckDestoyableObjects(Bomb * pBomb)
+void SBomber::CheckDestoyableObjects(DestroyableGroundObject * pDestObj)
 {
-    vector<DestroyableGroundObject*> vecDestoyableObjects = FindDestoyableGroundObjects();
-    const double size = pBomb->GetWidth();
-    const double size_2 = size / 2;
-    for (size_t i = 0; i < vecDestoyableObjects.size(); i++)
+    score += pDestObj->GetScore();
+    vector<Bomb*> vecBombs = FindAllBombs();
+    for (auto i : vecBombs)
     {
-        const double x1 = pBomb->GetX() - size_2;
-        const double x2 = x1 + size;
-        if (vecDestoyableObjects[i]->isInside(x1, x2))
-        {
-            score += vecDestoyableObjects[i]->GetScore();
-            DeleteStaticObj(vecDestoyableObjects[i]);
-        }
+        i->RemoveObserver(find(i->vecObs.begin(), i->vecObs.end(), pDestObj));
     }
-
+    DeleteStaticObj(pDestObj);
 
 }
 

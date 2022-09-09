@@ -22,11 +22,10 @@ void __fastcall Bomb::Accept(Visitor& v)
 
 void Bomb::AddObserver(DestroyableGroundObject* o)
 {
-    Observer* pObs = dynamic_cast<Observer*>(o);
-    vecObs.push_back(pObs); 
+    vecObs.push_back(o); 
 }
 
-bool Observer::HandleInsideChacke(double x1, double x2)
+void Bomb::RemoveObserver(vector<DestroyableGroundObject*>::iterator it)
 {
-    return this->isInside(x1, x2);
+    vecObs.erase(it);
 }

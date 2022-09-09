@@ -5,19 +5,11 @@
 #include "Visitor.h"
 #include <vector>
 
-class Bomb;
-
-class Observer : public DestroyableGroundObject
-{
-public:
-	bool HandleInsideChacke(double x1, double x2);
-};
-
-
 
 class Bomb : public DynamicObject
 {
 public:
+	std::vector<DestroyableGroundObject*>vecObs;
 
 	static const uint16_t BombCost = 10; // стоимость бомбы в очках
 
@@ -26,6 +18,8 @@ public:
 	void __fastcall Accept(class Visitor& v);
 
 	void AddObserver(DestroyableGroundObject* o);
+
+	void RemoveObserver(std::vector<DestroyableGroundObject*>::iterator it);
 
 	DestroyableGroundObject* CheckDestroyableObject()
 	{
@@ -37,14 +31,13 @@ public:
 			const double x1 = this->GetX() - size_2;
 			const double x2 = x1 + size;
 
-			if (i->HandleInsideChacke(x1, x2))
+			if (i->isInside(x1, x2))
 			{
-
+				return i;
 			}
 		}
 		
 	}
 private:
-	std::vector<Observer*>vecObs;
 };
 
