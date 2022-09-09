@@ -140,8 +140,13 @@ void SBomber::CheckBombsAndGround()
     {
         if (vecBombs[i]->GetY() >= y) // Пересечение бомбы с землей
         {
+            for (auto j : FindDestoyableGroundObjects())
+            {
+                vecBombs[i]->AddObserver(j);
+            }
             pGround->AddCrater(vecBombs[i]->GetX());
-            CheckDestoyableObjects(vecBombs[i]);
+            //CheckDestoyableObjects(vecBombs[i]);
+            vecBombs[i]->CheckDestroyableObject();
             DeleteDynamicObj(vecBombs[i]);
         }
     }
@@ -163,6 +168,8 @@ void SBomber::CheckDestoyableObjects(Bomb * pBomb)
             DeleteStaticObj(vecDestoyableObjects[i]);
         }
     }
+
+
 }
 
 void SBomber::DeleteDynamicObj(DynamicObject* pObj)
