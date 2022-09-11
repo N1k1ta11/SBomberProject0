@@ -2,12 +2,15 @@
 #include <conio.h>
 #include <windows.h>
 #include "Mediator.h"
+#include <time.h>
 
 #include "MyTools.h"
 #include "SBomber.h"
 #include "Bomb.h"
 #include "Ground.h"
 #include "Tank.h"
+#include "ColorPlane.h"
+#include "BigPlane.h"
 #include "House.h"
 
 using namespace std;
@@ -26,11 +29,24 @@ SBomber::SBomber()
     WriteToLog(string(__FUNCTION__) + " was invoked");
     Mediator* mediator = new Mediator;
 
-    Plane* p = new Plane;
-    p->SetDirection(1, 0.1);
-    p->SetSpeed(4);
-    p->SetPos(5, 10);
-    vecDynamicObj.push_back(p);
+    srand(time(0));
+    if (rand() % 2 == 1)
+    {
+        Plane* p = new ColorPlane();
+        p->SetDirection(1, 0.1);
+        p->SetSpeed(4);
+        p->SetPos(5, 10);
+        vecDynamicObj.push_back(p);
+    }
+    else
+    {
+        Plane* p = new BigPlane();
+        p->SetDirection(1, 0.1);
+        p->SetSpeed(4);
+        p->SetPos(5, 10);
+        vecDynamicObj.push_back(p);
+    }
+    
 
     LevelGUI* pGUI = new LevelGUI;
     pGUI->SetParam(passedTime, fps, bombsNumber, score);

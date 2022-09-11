@@ -9,7 +9,9 @@ public:
 
     inline void ChangePlaneY(double dy) { yDirection += dy; }
 
-private:
-
+protected:
+    virtual void DrawBody() const = 0;
+    virtual void DrawWings() const = 0;
+    virtual void DrawTail() const = 0;
 };
 

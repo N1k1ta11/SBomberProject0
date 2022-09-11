@@ -9,7 +9,7 @@ using namespace MyTools;
 
 void Plane::Draw() const
 {
-    MyTools::SetColor(CC_LightBlue);
+    /*MyTools::SetColor(CC_LightBlue);
     GotoXY(x, y);
     cout << "=========>";
     GotoXY(x - 2, y - 1);
@@ -17,5 +17,8 @@ void Plane::Draw() const
     GotoXY(x + 3, y - 1);
     cout << "\\\\\\\\";
     GotoXY(x + 3, y + 1);
-    cout << "////";
+    cout << "////";*/
+    DrawBody();
+    DrawTail();
+    DrawWings();
 }
