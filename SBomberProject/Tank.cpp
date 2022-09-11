@@ -41,4 +41,5 @@ void Tank::Draw() const
 	cout << "    #####";
 	GotoXY(x,y);
 	cout << " ###########";
+	pMediator->Notify(vecMes);
 }

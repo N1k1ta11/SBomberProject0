@@ -1,6 +1,8 @@
 #pragma once
 
 #include <stdint.h>
+#include<vector>
+#include<string>
 
 #include "GameObject.h"
 
@@ -18,8 +20,9 @@ public:
 
     void Draw() const override;
 
+    void SetVecMessage(std::string mes);
 private:
-
+    std::string message = "";
     uint16_t height;
     uint16_t finishX = 109;
 

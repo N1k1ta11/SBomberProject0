@@ -1,6 +1,7 @@
 
 #include <conio.h>
 #include <windows.h>
+#include "Mediator.h"
 
 #include "MyTools.h"
 #include "SBomber.h"
@@ -23,6 +24,7 @@ SBomber::SBomber()
     score(0)
 {
     WriteToLog(string(__FUNCTION__) + " was invoked");
+    Mediator* mediator = new Mediator;
 
     Plane* p = new Plane;
     p->SetDirection(1, 0.1);
@@ -47,13 +49,15 @@ SBomber::SBomber()
     pGr->SetPos(offset + 1, groundY);
     pGr->SetWidth(width - 2);
     vecStaticObj.push_back(pGr);
-
-    Tank* pTank = new Tank;
+    
+    Tank* pTank = new Tank(mediator);
     pTank->SetWidth(13);
     pTank->SetPos(30, groundY - 1);
     vecStaticObj.push_back(pTank);
 
-    pTank = new Tank;
+    mediator->Add(pTank);
+
+    pTank = new Tank(mediator);
     pTank->SetWidth(13);
     pTank->SetPos(50, groundY - 1);
     vecStaticObj.push_back(pTank);
@@ -62,6 +66,9 @@ SBomber::SBomber()
     pHouse->SetWidth(13);
     pHouse->SetPos(80, groundY - 1);
     vecStaticObj.push_back(pHouse);
+
+    mediator->Add(pGUI);
+    mediator->Add(pTank);
 
     /*
     Bomb* pBomb = new Bomb;
