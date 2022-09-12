@@ -16,7 +16,9 @@ enum CraterSize
 class Crater : public GameObject
 {
 public:
-
+	Crater(){}
+	Crater(const Crater& b) : GameObject(b){}
+	Crater* clone() { return new Crater(*this); }
 	bool __fastcall isInside(double xn) const;
 	
 	void Draw() const override;
@@ -32,7 +34,8 @@ class Ground : public GameObject
 public:
 
 	Ground() { }
-
+	Ground(const Ground& b) : GameObject(b), vecCrates(b.vecCrates) {}
+	Ground* clone() { return new Ground(*this); }
 	void Draw() const override;
 
 	void __fastcall AddCrater(double xn);

@@ -20,7 +20,7 @@ SBomber::SBomber()
     passedTime(0),
     fps(0),
     bombsNumber(10),
-    score(0)
+    score(0),field(new GameField())
 {
     WriteToLog(string(__FUNCTION__) + " was invoked");
 
@@ -28,10 +28,11 @@ SBomber::SBomber()
     p->SetDirection(1, 0.1);
     p->SetSpeed(4);
     p->SetPos(5, 10);
-    vecDynamicObj.push_back(p);
+    field->PushDynamic(p);
 
     LevelGUI* pGUI = new LevelGUI;
     pGUI->SetParam(passedTime, fps, bombsNumber, score);
+    field->SetParam(passedTime, fps, bombsNumber, score);
     const uint16_t maxX = GetMaxX();
     const uint16_t maxY = GetMaxY(); 
     const uint16_t offset = 3;
@@ -40,28 +41,28 @@ SBomber::SBomber()
     pGUI->SetWidth(width);
     pGUI->SetHeight(maxY - 4);
     pGUI->SetFinishX(offset + width - 4);
-    vecStaticObj.push_back(pGUI);
+    field->PushStatic(pGUI);
 
     Ground* pGr = new Ground;
     const uint16_t groundY = maxY - 5;
     pGr->SetPos(offset + 1, groundY);
     pGr->SetWidth(width - 2);
-    vecStaticObj.push_back(pGr);
+    field->PushStatic(pGr);
 
     Tank* pTank = new Tank;
     pTank->SetWidth(13);
     pTank->SetPos(30, groundY - 1);
-    vecStaticObj.push_back(pTank);
+    field->PushStatic(pTank);
 
     pTank = new Tank;
     pTank->SetWidth(13);
     pTank->SetPos(50, groundY - 1);
-    vecStaticObj.push_back(pTank);
+    field->PushStatic(pTank);
 
     House * pHouse = new House;
     pHouse->SetWidth(13);
     pHouse->SetPos(80, groundY - 1);
-    vecStaticObj.push_back(pHouse);
+    field->PushStatic(pHouse);
 
     /*
     Bomb* pBomb = new Bomb;
@@ -94,15 +95,7 @@ SBomber::~SBomber()
 
 void SBomber::MoveObjects()
 {
-    WriteToLog(string(__FUNCTION__) + " was invoked");
-
-    for (size_t i = 0; i < vecDynamicObj.size(); i++)
-    {
-        if (vecDynamicObj[i] != nullptr)
-        {
-            vecDynamicObj[i]->Move(deltaTime);
-        }
-    }
+    field->MoveObjects();
 };
 
 void SBomber::CheckObjects()
@@ -157,113 +150,37 @@ void SBomber::CheckDestoyableObjects(Bomb * pBomb)
 
 void SBomber::DeleteDynamicObj(DynamicObject* pObj)
 {
-    auto it = vecDynamicObj.begin();
-    for (; it != vecDynamicObj.end(); it++)
-    {
-        if (*it == pObj)
-        {
-            vecDynamicObj.erase(it);
-            break;
-        }
-    }
+    field->DeleteDynamicObj(pObj);
 }
 
 void SBomber::DeleteStaticObj(GameObject* pObj)
 {
-    auto it = vecStaticObj.begin();
-    for (; it != vecStaticObj.end(); it++)
-    {
-        if (*it == pObj)
-        {
-            vecStaticObj.erase(it);
-            break;
-        }
-    }
+    field->DeleteStaticObj(pObj);
 }
 
 vector<DestroyableGroundObject*> SBomber::FindDestoyableGroundObjects() const
 {
-    vector<DestroyableGroundObject*> vec;
-    Tank* pTank;
-    House* pHouse;
-    for (size_t i = 0; i < vecStaticObj.size(); i++)
-    {
-        pTank = dynamic_cast<Tank*>(vecStaticObj[i]);
-        if (pTank != nullptr)
-        {
-            vec.push_back(pTank);
-            continue;
-        }
-
-        pHouse = dynamic_cast<House*>(vecStaticObj[i]);
-        if (pHouse != nullptr)
-        {
-            vec.push_back(pHouse);
-            continue;
-        }
-    }
-
-    return vec;
+    return field->FindDestoyableGroundObjects();
 }
 
 Ground* SBomber::FindGround() const
 {
-    Ground* pGround;
-
-    for (size_t i = 0; i < vecStaticObj.size(); i++)
-    {
-        pGround = dynamic_cast<Ground *>(vecStaticObj[i]);
-        if (pGround != nullptr)
-        {
-            return pGround;
-        }
-    }
-
-    return nullptr;
+    return field->FindGround();
 }
 
 vector<Bomb*> SBomber::FindAllBombs() const
 {
-    vector<Bomb*> vecBombs;
-
-    for (size_t i = 0; i < vecDynamicObj.size(); i++)
-    {
-        Bomb* pBomb = dynamic_cast<Bomb*>(vecDynamicObj[i]);
-        if (pBomb != nullptr)
-        {
-            vecBombs.push_back(pBomb);
-        }
-    }
-
-    return vecBombs;
+    return field->FindAllBombs();
 }
 
 Plane* SBomber::FindPlane() const
 {
-    for (size_t i = 0; i < vecDynamicObj.size(); i++)
-    {
-        Plane* p = dynamic_cast<Plane*>(vecDynamicObj[i]);
-        if (p != nullptr)
-        {
-            return p;
-        }
-    }
-
-    return nullptr;
+    return field->FindPlane();
 }
 
 LevelGUI* SBomber::FindLevelGUI() const
 {
-    for (size_t i = 0; i < vecStaticObj.size(); i++)
-    {
-        LevelGUI* p = dynamic_cast<LevelGUI*>(vecStaticObj[i]);
-        if (p != nullptr)
-        {
-            return p;
-        }
-    }
-
-    return nullptr;
+    return field->FindLevelGUI();
 }
 
 void SBomber::ProcessKBHit()
@@ -299,6 +216,17 @@ void SBomber::ProcessKBHit()
         DropBomb();
         break;
 
+    case 's':
+    {
+        delete memento;
+        memento = field->Save();
+    }
+
+    case 'r':
+    {
+        field->Load(memento);
+    }
+
     default:
         break;
     }
@@ -306,28 +234,7 @@ void SBomber::ProcessKBHit()
 
 void SBomber::DrawFrame()
 {
-    WriteToLog(string(__FUNCTION__) + " was invoked");
-
-    for (size_t i = 0; i < vecDynamicObj.size(); i++)
-    {
-        if (vecDynamicObj[i] != nullptr)
-        {
-            vecDynamicObj[i]->Draw();
-        }
-    }
-
-    for (size_t i = 0; i < vecStaticObj.size(); i++)
-    {
-        if (vecStaticObj[i] != nullptr)
-        {
-            vecStaticObj[i]->Draw();
-        }
-    }
-
-    GotoXY(0, 0);
-    fps++;
-
-    FindLevelGUI()->SetParam(passedTime, fps, bombsNumber, score);
+    field->DrawFrame();
 }
 
 void SBomber::TimeStart()
@@ -341,28 +248,12 @@ void SBomber::TimeFinish()
     finishTime = GetTickCount64();
     deltaTime = uint16_t(finishTime - startTime);
     passedTime += deltaTime;
+    field->SetTime(startTime, finishTime, passedTime, deltaTime);
 
     WriteToLog(string(__FUNCTION__) + " deltaTime = ", (int)deltaTime);
 }
 
 void SBomber::DropBomb()
 {
-    if (bombsNumber > 0)
-    {
-        WriteToLog(string(__FUNCTION__) + " was invoked");
-
-        Plane* pPlane = FindPlane();
-        double x = pPlane->GetX() + 4;
-        double y = pPlane->GetY() + 2;
-
-        Bomb* pBomb = new Bomb;
-        pBomb->SetDirection(0.3, 1);
-        pBomb->SetSpeed(2);
-        pBomb->SetPos(x, y);
-        pBomb->SetWidth(SMALL_CRATER_SIZE);
-
-        vecDynamicObj.push_back(pBomb);
-        bombsNumber--;
-        score -= Bomb::BombCost;
-    }
+    field->DropBomb();
 }

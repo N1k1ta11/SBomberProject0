@@ -10,6 +10,10 @@ public:
 
     DynamicObject() : speed(0.0), xDirction(0.0), yDirection(0) { }
 
+    DynamicObject(const DynamicObject& b) : GameObject(b), speed(b.speed), xDirction(b.xDirction), yDirection(b.yDirection){}
+
+    virtual DynamicObject* clone() = 0;
+
     inline void SetSpeed(double sp) { speed = sp; }
     inline void SetDirection(double dx, double dy) { xDirction = dx; yDirection = dy; }
     
