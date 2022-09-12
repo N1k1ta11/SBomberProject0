@@ -42,7 +42,7 @@ void LevelGUI::Draw() const
     cout << "Score: " << score;
 }
 
-void __fastcall LevelGUI::SetParam(uint64_t passedTimeNew, uint64_t fpsNew, uint16_t bombsNumberNew, int16_t scoreNew)
+void __fastcall LevelGUI::SetParam(uint64_t &passedTimeNew, uint64_t &fpsNew, uint16_t &bombsNumberNew, int16_t &scoreNew)
 {
     passedTime = passedTimeNew;
     fps = fpsNew;
