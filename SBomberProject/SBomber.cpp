@@ -1,6 +1,7 @@
 
 #include <conio.h>
 #include <windows.h>
+#include <time.h>
 
 #include "MyTools.h"
 #include "SBomber.h"
@@ -266,6 +267,14 @@ LevelGUI* SBomber::FindLevelGUI() const
     return nullptr;
 }
 
+void SBomber::CloneObject()
+{
+    vector<DestroyableGroundObject*> vecObj = FindDestoyableGroundObjects();
+    srand(time(0));
+    size_t index = rand() % vecObj.size();
+    vecStaticObj.push_back(vecObj[index]->clone());
+}
+
 void SBomber::ProcessKBHit()
 {
     int c = _getch();
@@ -300,9 +309,11 @@ void SBomber::ProcessKBHit()
         break;
 
     case 'd':
+        CloneObject();
         break;
 
     case 'D':
+        CloneObject();
         break;
 
     default:
