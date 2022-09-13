@@ -5,7 +5,6 @@ public:
 
     GameObject() : x(0.0), y(0.0), width(0) { }
     GameObject(const GameObject& a) : x(a.x), y(a.y), width(a.width){}
-    virtual GameObject* clone() = 0;
     virtual void Draw() const = 0;
 
     inline void SetPos(double nx, double ny) { x = nx; y = ny; }

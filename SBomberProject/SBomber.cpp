@@ -299,6 +299,12 @@ void SBomber::ProcessKBHit()
         DropBomb();
         break;
 
+    case 'd':
+        break;
+
+    case 'D':
+        break;
+
     default:
         break;
     }

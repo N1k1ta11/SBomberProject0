@@ -8,8 +8,6 @@ class LevelGUI : public GameObject {
 public:
 
     LevelGUI() : bombsNumber(0), score(0), passedTime(0), fps(0), height(0) { }
-    LevelGUI(const LevelGUI& a) : GameObject(a), bombsNumber(a.bombsNumber), score(a.score), passedTime(a.passedTime), fps(a.fps), height(a.height){}
-    LevelGUI* clone() override { return new LevelGUI(*this); }
 
     void __fastcall SetParam(uint64_t passedTimeNew, uint64_t fpsNew, uint16_t bombsNumberNew, int16_t scoreNew);
     
