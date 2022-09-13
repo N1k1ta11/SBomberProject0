@@ -8,8 +8,9 @@ class DestroyableGroundObject : public GameObject
 {
 public:
     DestroyableGroundObject(){}
-    virtual ~DestroyableGroundObject(){}
-    virtual DestroyableGroundObject* Clone() = 0;
+    DestroyableGroundObject(const DestroyableGroundObject& a) : GameObject(a){}
+    virtual DestroyableGroundObject* clone() = 0;
+    virtual ~DestroyableGroundObject() {}
 
     virtual bool __fastcall isInside(double x1, double x2) const = 0;
 
